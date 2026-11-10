@@ -3,3 +3,4 @@
 **/*.quarto_ipynb
 *.tmp
 notes/
+current_state.md

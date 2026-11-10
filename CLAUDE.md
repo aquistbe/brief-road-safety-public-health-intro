@@ -4,6 +4,9 @@ Quarto website for public health and injury epidemiology, written for high
 school and college volunteers on the WalkSafe-AI project and any future
 student volunteers. Owner: Alex Quistberg.
 
+**Read `current_state.md` first** (local only, gitignored): what's published, what's
+verified, open items. Update it at the end of each session.
+
 ## Build
 - Quarto is not on PATH. Use Positron's copy:
   `/Applications/Positron.app/Contents/Resources/app/quarto/bin/quarto render`
