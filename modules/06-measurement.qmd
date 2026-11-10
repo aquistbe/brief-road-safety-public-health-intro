@@ -1,0 +1,110 @@
+---
+title: "6 · Measuring streets from images"
+---
+
+::: {.topic-badges}
+~35 min · reading + quiz
+:::
+
+## What you'll learn
+
+- The difference between **validity** and **reliability**
+- Why we have **two or more people** label the same images
+- Why the rules say "**label only what you see**"
+- Why we keep labelers **blind** to each other's work, and **freeze** labels before comparing
+- How mistakes in labels can (or can't) bias a study
+
+## 1. Ways to measure a street
+
+| Method | How | Good | Not so good |
+|---|---|---|---|
+| Field audit | A trained person walks the street with a checklist | Sees everything up close | Slow, costly, hard to cover a whole city |
+| Virtual audit | A person looks at street-level images on a computer | Faster, no travel | Images may be old; some things are hidden |
+| Computer vision | A model finds features in images automatically | Can cover a whole city | Makes its own kinds of mistakes, and must be checked against people |
+
+Our project uses virtual audits by people to **teach and check** computer models. Many checklists in this field, including ours, descend from the same audit tool (CANVAS), so they aren't fully independent of each other.
+
+## 2. Validity and reliability
+
+Think of a dartboard:
+
+- **Valid** means hitting the bullseye: measuring what you mean to measure.
+- **Reliable** means hitting the same spot every time: consistent, even if it's off-center.
+
+A measurement can be reliable but not valid (always off in the same way), but it **can't** be valid without being reliable. If two people label the same image differently, at least one is wrong, and we can't tell which.
+
+That's why **consistency comes first**. A clear, shared rule applied the same way by everyone beats each person's private idea of what's "right."
+
+## 3. Why two people label the same images
+
+We have two (sometimes three) people independently label some of the same images. Then we measure how often they agree. This is called **inter-rater reliability**.
+
+But agreement can happen by luck. If 90% of images have no bike lane, two people who both always click "no bike lane" agree 90% of the time without even looking. So researchers use statistics like **Cohen's kappa (κ)**, which measures agreement **beyond what chance would give**:
+
+- κ = 0: no better than chance
+- κ = 1: perfect agreement
+- Roughly 0.6 or above is often called "substantial"
+
+For boxes drawn around objects, we also check whether two boxes **overlap** enough to count as the same object. The usual measure is called **IoU** (intersection over union).
+
+Human–human agreement also gives us a **benchmark for the computer**. If two trained people agree only so often, we can't expect a model to do better than that.
+
+## 4. "Label only what you see"
+
+You'll see this rule a lot. It means:
+
+- Label what's **visible in this image**, not what "a street like this usually has."
+- If you can't tell what something is, **don't label it**, or flag it as unsure if the rules allow.
+- Don't use outside knowledge, like "I know there's a crosswalk at that corner."
+
+Why so strict? If labelers fill in what they *expect*, the labels start to reflect their assumptions, and different people have different assumptions. Then the labels measure the labelers, not the street.
+
+## 5. Blinding and freezing
+
+- **Blind:** labelers don't see each other's labels, and don't discuss specific images until the comparison is done. If you talk it over first, your agreement no longer tells us how consistent the rules are. It only shows that you talked.
+- **Freeze:** when everyone finishes, the labels are locked (saved with a digital fingerprint) *before* anyone compares them. Then nobody can, even by accident, "fix" labels after seeing the results.
+- **Written rules first:** the rules and the analysis plan are written down and signed *before* the data are examined. If the plan changes, the change is written down too, with the reason.
+
+None of this is about distrust. It's how science protects itself from its own wishful thinking. The same habits are used in clinical trials.
+
+## 6. When do labeling mistakes matter?
+
+Everyone makes mistakes. What matters is the **pattern**:
+
+- **Random mistakes**, made about as often everywhere, usually make real patterns look *weaker* than they are. That's annoying, but it's a known problem.
+- **Mistakes that differ by place** are more dangerous. Suppose labelers miss crosswalks more often on dark, low-quality images, and those come mostly from poorer neighborhoods. Then the data can create a pattern that isn't real.
+
+That's one reason we sample images from many kinds of neighborhoods. It's also why the rules ask you to flag images that won't load or that you can't read, instead of guessing.
+
+::: {.callout-note collapse="true"}
+## Go deeper (college)
+- Random error in an exposure is called **non-differential misclassification**. With two categories it usually biases associations **toward the null**. Error that differs by outcome or by group is **differential**, and it can bias in either direction.
+- Kappa depends on how common the feature is (the **prevalence paradox**). Rare features can have high raw agreement but low κ. Report both.
+- Reliability sets an upper limit on validity. The correlation between a measure and anything else is capped by how reliable the measure is.
+- Search for "pre-registration" and "researcher degrees of freedom" to see why signed plans matter.
+:::
+
+## Why this matters for your work
+
+- **Consistency beats cleverness.** Follow the written definitions exactly, even when you'd draw the line elsewhere.
+- **Ask, don't guess.** Note the image id and ask your supervisor. The answer goes to every labeler, so the rules stay shared.
+- **Don't compare notes** on specific images with other labelers until your supervisor says the comparison is done.
+- **Take your time,** and stop when you're tired. Tired labeling is inconsistent labeling. Submit or close the page when you take a break.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "Two labelers always give the same answer, but both are consistently wrong. Their labels are…", "options": ["Reliable but not valid", "Valid but not reliable", "Both valid and reliable", "Neither"], "answer": 0, "explain": "Consistent (reliable), but not measuring the truth (not valid)."},
+{"q": "Why use kappa instead of plain percent agreement?", "options": ["Kappa removes the agreement you'd expect by chance", "Kappa is easier to compute", "Percent agreement is always wrong", "Kappa counts boxes"], "answer": 0, "explain": "When a feature is rare, two people can agree a lot just by both saying 'no'."},
+{"q": "The image is blurry, but you're pretty sure the street usually has a crosswalk there. You should…", "options": ["Label only what you can see, and not add a crosswalk you can't see", "Add the crosswalk, since you know it's there", "Look it up on a map", "Ask another labeler"], "answer": 0, "explain": "Label only what's visible in the image. Outside knowledge makes labels inconsistent."},
+{"q": "Why don't labelers discuss specific images before the comparison?", "options": ["Their agreement would reflect the discussion, not the clarity of the rules", "It's against school rules", "It's slower", "Supervisors don't like it"], "answer": 0, "explain": "Independent labels are the only way to measure whether the rules work on their own."},
+{"q": "Which kind of labeling mistake is most likely to create a false pattern?", "options": ["Mistakes that happen more in some kinds of neighborhoods than others", "Rare random mistakes", "Typos in notes", "Labeling slowly"], "answer": 0, "explain": "Errors that differ by place can create or hide differences between places."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [5 · Streets, design and safety](05-built-environment.qmd) · **Next:** [7 · Research ethics and data rules](07-ethics.qmd)

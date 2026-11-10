@@ -1,0 +1,87 @@
+---
+title: "7 · Research ethics and data rules"
+---
+
+::: {.topic-badges}
+~25 min · reading + quiz
+:::
+
+## What you'll learn
+
+- Why research has ethics rules, and the three principles behind them
+- What an IRB does
+- The data rules for our project, and the reasons for each
+- How credit works in research
+- How to use AI tools responsibly in research work
+
+## 1. Why research ethics exists
+
+Research rules weren't invented to slow people down. They were written after real harm was done.
+
+The best-known U.S. example is the **U.S. Public Health Service syphilis study at Tuskegee** (1932–1972). Researchers followed hundreds of Black men with syphilis for decades without telling them their diagnosis, and kept treating them even after penicillin became the standard cure. When the study became public, the outrage led to new federal protections for research participants.
+
+In 1979, a national commission published the **Belmont Report**. It sets out three principles that still guide U.S. research:
+
+| Principle | What it means | In everyday terms |
+|---|---|---|
+| **Respect for persons** | People decide for themselves whether to take part (informed consent). Extra protection goes to those who can't fully decide. | Ask, explain and accept "no." |
+| **Beneficence** | Maximize benefits and minimize harms. | Don't hurt people, and make the research worth doing. |
+| **Justice** | Share the burdens and benefits of research fairly. | Don't study only the people who are easiest to study, or leave out the people who would benefit. |
+
+## 2. What an IRB does
+
+An **Institutional Review Board (IRB)** is a committee at a university or hospital. It reviews research that involves people before the research starts. It checks that risks are low, consent is real, and private information is protected.
+
+Not every project counts as "human subjects research." Studying public streets, for example, isn't the same as studying people. But universities still have rules for anyone who works on research, and some projects need training before you start. **Your supervisor will tell you what's required for your role.**
+
+## 3. Our data rules, and why
+
+| Rule | Why |
+|---|---|
+| **Never take screenshots, save, copy, download or print street images.** | The images belong to the company that took them, and its terms limit storing them. We keep only an image id, never the picture. |
+| **Don't try to work out where an image is.** | Knowing the location could affect how you label (module 6), and locations can be sensitive. |
+| **Never describe a location in notes.** | Same reasons. Notes should be about the labeling rules, not the place. |
+| **Never try to identify a person or vehicle** you see in an image. | The people in street images didn't agree to be studied. Respect for persons applies to them too. |
+| **Don't share your login** or let anyone else work under it. | Every label must be traceable to the person who made it, or the reliability checks in module 6 fall apart. |
+| **Don't share project files** outside the team. Don't post about specific images or results online. | Results aren't final until they've been checked and published. Sharing early can spread mistakes. |
+| **Don't change settings or export data** unless you're asked to. | Settings and exports are part of the study record. |
+
+If something happens by accident (say, you took a screenshot without thinking), **tell your supervisor**. Delete it, and that's the end of it. Honest mistakes reported quickly are easy to fix. Hidden ones aren't.
+
+## 4. How credit works
+
+- **Authorship** on a scientific paper usually requires all four of these (the ICMJE criteria): a substantial contribution to the work, helping write or critically revise the paper, approving the final version, and agreeing to be accountable for it.
+- **Acknowledgment** recognizes people who helped in other ways, such as labeling data, checking records or reading papers. Volunteers are usually thanked by name, with permission.
+- Many journals now use the **CRediT** list of roles (such as *data curation* or *investigation*) to say exactly who did what.
+
+If you'd like to work toward authorship, say so. Your supervisor can tell you what it would take.
+
+## 5. AI tools
+
+AI tools such as chatbots can help you learn. For example, you could ask one to explain confounding a different way. But:
+
+- **Never paste project materials, images, notes or data into an AI tool** unless your supervisor has said that tool is approved for it.
+- **AI makes things up**, including fake references. Check anything it tells you against a real source.
+- If AI helped you with something you hand in, **say so**.
+
+## Why this matters for your work
+
+These rules protect the people in the images, the project's permission to use its data, and the credibility of the results. Following them is part of doing the work well.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "Which three principles does the Belmont Report set out?", "options": ["Respect for persons, beneficence, justice", "Speed, accuracy, cost", "Privacy, publication, peer review", "Consent, payment, authorship"], "answer": 0, "explain": "These three principles guide U.S. research ethics today."},
+{"q": "You see an interesting street image and want to show a friend. You should…", "options": ["Not screenshot or share it. We never store or share images", "Take a quick screenshot", "Describe where it is", "Share it only on a private account"], "answer": 0, "explain": "The image terms limit storing images. We keep only an image id."},
+{"q": "You accidentally took a screenshot of a labeling image. What now?", "options": ["Delete it and tell your supervisor", "Keep it but don't share it", "Say nothing", "Stop volunteering"], "answer": 0, "explain": "Honest mistakes reported quickly are easy to fix."},
+{"q": "Why must you never share your login?", "options": ["Every label must be traceable to the person who made it", "It's only a security rule", "Logins expire", "The site limits users"], "answer": 0, "explain": "Reliability checks compare labels by person. A shared login mixes up people."},
+{"q": "Can you paste project notes into a chatbot for help?", "options": ["Only if your supervisor says that tool is approved for it", "Yes, always", "Yes, if you delete the chat later", "Only at night"], "answer": 0, "explain": "Project materials stay in approved tools only."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [6 · Measuring streets](06-measurement.qmd) · **Next:** [8 · Research to safer streets](08-policy.qmd)

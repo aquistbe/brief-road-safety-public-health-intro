@@ -1,0 +1,87 @@
+---
+title: "8 · From research to safer streets"
+---
+
+::: {.topic-badges}
+~20 min · reading + reflection + quiz
+:::
+
+## What you'll learn
+
+- Who uses pedestrian safety research, and how
+- How to read a safety map or dashboard carefully
+- Why the words we use matter
+- Careers in injury prevention and transportation safety
+
+## 1. Who uses this research
+
+| Who | What they do with it |
+|---|---|
+| **City transportation departments** | Decide which streets to redesign first, and which features to use |
+| **Vision Zero programs** | Map the "high-injury network," the small share of streets with most serious crashes, and track progress |
+| **State departments of transportation** | Fund safety projects; set design standards for state roads, which are often the most dangerous urban streets |
+| **Health departments** | Treat traffic injury as a public health problem; link it to physical activity, aging and equity |
+| **Advocates and community groups** | Push for changes on their own streets, using data as evidence |
+| **Researchers** | Test which features actually work, and for whom |
+
+Research rarely changes a street by itself. It becomes one piece of evidence that planners, residents and elected officials weigh along with cost, space and what the community wants.
+
+## 2. Reading maps and dashboards carefully
+
+Maps of crashes are powerful, and easy to misread. Use what you learned in module 4:
+
+- **Counts or rates?** A map of crash **counts** mostly shows where people and cars are.
+- **Exposure:** busy downtown streets will always look "red" on a count map.
+- **Places, not people:** an area-level map describes places, not individuals (the ecological fallacy).
+- **Time period:** a few years of data can be noisy. Was the period chosen because it was unusual?
+- **What's not built yet:** a research dashboard may show early results. Read its notes about what's demonstrated and what's still a prototype.
+
+## 3. Words matter
+
+The words we use shape who gets blamed, and what gets fixed.
+
+| Instead of | Try | Why |
+|---|---|---|
+| "Accident" | "Crash" | Crashes are predictable and preventable (module 1) |
+| "Pedestrian was hit by a car" | "A driver struck a person walking" | Names who was involved, not just the object |
+| "Jaywalker" | "Person crossing mid-block" | Most deaths happen mid-block, often where no safe crossing is nearby (module 2) |
+| "Pedestrian error" | Describe the street: "no crossing for half a mile" | Points to what can be changed |
+
+Accurate language also means **not overstating results**. Say "linked with" rather than "causes" unless the study design supports a causal claim.
+
+## 4. Careers
+
+People who work on this problem include:
+
+- **Epidemiologists and biostatisticians** at universities, health departments and the CDC's injury prevention programs
+- **Transportation engineers and planners** at city and state departments of transportation
+- **Data scientists** building tools like the ones in this project
+- **Policy analysts and advocates** at nonprofits and government agencies
+- **Emergency medicine and trauma professionals** who treat injuries and study prevention
+
+Useful college majors include public health, epidemiology, statistics, data science, civil engineering, urban planning, geography and computer science. Many of these fields welcome people from the others.
+
+## 5. Reflection
+
+Before you finish, write down (just for yourself, or to share with your supervisor):
+
+1. One idea from this orientation that changed how you see streets.
+2. One question you still have.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "A map shows downtown with the most pedestrian crashes. What's the first question to ask?", "options": ["Are these counts or rates? Downtown has the most people walking", "Should downtown be closed?", "Is the map pretty?", "Who made the map?"], "answer": 0, "explain": "Count maps mostly show exposure."},
+{"q": "Which phrasing is more accurate and less blaming?", "options": ["A driver struck a person walking", "The pedestrian was hit by a car", "A jaywalker caused a crash", "An accident happened"], "answer": 0, "explain": "It names who was involved and avoids blame."},
+{"q": "What is a 'high-injury network'?", "options": ["The small share of streets where most serious crashes happen", "Every street in a city", "A hospital network", "A computer network"], "answer": 0, "explain": "Many Vision Zero cities use it to set priorities."},
+{"q": "A study finds crosswalks are 'linked with' fewer crashes. Can you say they 'cause' fewer crashes?", "options": ["Only if the study design supports a causal claim", "Yes, always", "Never", "Only if the map is red"], "answer": 0, "explain": "Association isn't causation unless the design rules out other explanations."},
+{"q": "Which fields work on pedestrian safety?", "options": ["Public health, engineering, planning, data science and more", "Only medicine", "Only law enforcement", "Only engineering"], "answer": 0, "explain": "Injury prevention brings many fields together."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [7 · Ethics](07-ethics.qmd) · **Next:** [Completion checklist](../checklist.qmd)

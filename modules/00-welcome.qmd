@@ -1,0 +1,84 @@
+---
+title: "0 · Welcome: how the project fits together"
+---
+
+::: {.topic-badges}
+~20 min · reading + quiz
+:::
+
+## What you'll learn
+
+- What our research team studies, and why
+- Where your work fits in the bigger picture
+- What we expect from volunteers, and what you can expect from us
+
+## The problem
+
+In 2023, **7,314 people** were killed while walking in the United States, about one every 72 minutes, and about 68,000 more were injured (NHTSA). Most of these deaths can be prevented. They don't happen at random. They cluster on certain kinds of streets, at certain times, and among certain groups of people. Older adults are hit especially hard: as we age we walk more slowly, see less well at night, and are more likely to die from an injury that a younger person would survive.
+
+When something is common, serious and preventable, it's a **public health problem**, not just bad luck.
+
+## What our project does
+
+**WalkSafe-AI** is a research project funded by the U.S. National Institutes of Health (National Institute on Aging). We ask one question:
+
+> **Which features of a street make walking more or less dangerous, and can we measure those features across a whole city?**
+
+Sending people to walk every street with a clipboard (a "street audit") works, but it's slow and expensive. So we're testing whether computers can do part of the job by "reading" street-level photos. They would look for things like crosswalks, sidewalks, traffic lights, medians and curb ramps.
+
+For a computer to learn this, and for us to check whether it got it right, **people have to label images carefully first.** That's often where volunteers come in.
+
+## Where your work fits
+
+```
+ Street images      People label         Computer models     We compare labels     Link street features
+ (we never keep  ->  what they see   ->   learn to find   ->  from people and   ->  to crash data, with
+  copies)            (you!)               the same things     models                careful statistics
+```
+
+Each step depends on the one before it. If the labels are inconsistent, everything after them is weaker. **Careful, consistent labeling is real scientific work.**
+
+## Where things stand
+
+We try to be accurate about what's finished and what isn't:
+
+- **Bogotá, Colombia:** demonstrated. Earlier published work measured 27 street features from images across the city and linked them to crashes.
+- **Philadelphia:** an early prototype, plus one completed study testing how well computer-made measurements match crash patterns.
+- **Planned tools** (for example, tools to help cities choose where to invest) **are not built yet.**
+
+If you describe the project to anyone (friends, teachers, college applications), use this wording. Please don't say it does more than it does.
+
+## What we expect from you
+
+- **Follow the written rules**, even when you think you know better. If a rule seems wrong, ask. Don't quietly work around it.
+- **Ask when unsure.** Write down what confused you (for labeling, the tile id) and ask your supervisor.
+- **Protect the data.** Module 7 explains the rules, such as never taking screenshots of images.
+- **Be honest about your time.** Tell us if you get busy. It's much better than rushing.
+
+## What you can expect from us
+
+- Clear instructions, and quick answers to your questions.
+- Credit for your work. Module 7 explains how research credit works.
+- A reference or letter if you've done good work and want one.
+
+## Why this matters for your work
+
+You're not just "helping out." The quality of the whole study depends on the quality of the labels and checks you do.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "Why do we call pedestrian deaths a public health problem?", "options": ["They are common, serious and largely preventable", "They only affect people who are careless", "Doctors treat the injuries", "They happen at random"], "answer": 0, "explain": "Public health focuses on problems that are common, serious and preventable, and these deaths fit all three."},
+{"q": "Why do people need to label images if computers will do the measuring?", "options": ["Computers need labeled examples to learn from, and to be checked against", "People label faster than computers", "Labels replace the crash data", "It's only practice"], "answer": 0, "explain": "Human labels both teach the model and test whether it got things right."},
+{"q": "Which statement about the project's status is accurate?", "options": ["Bogotá is demonstrated; Philadelphia is an early prototype; planned tools aren't built", "The project already tells cities where to build crosswalks", "Philadelphia results are final", "Nothing has been done yet"], "answer": 0, "explain": "Describe the work accurately, including what's not done yet."},
+{"q": "You think a labeling rule is wrong. What should you do?", "options": ["Ask your supervisor, and keep following the rule until it changes", "Quietly do it your own way", "Skip those images", "Ask another volunteer to decide"], "answer": 0, "explain": "Rules only work if everyone follows the same ones. If a rule changes, it changes for everyone."},
+{"q": "Why do older adults die more often when struck while walking?", "options": ["Bodies are more fragile with age, so the same impact is more likely to be fatal", "They walk more carelessly", "They walk mostly on highways", "They aren't affected more"], "answer": 0, "explain": "Frailty is a major reason. Slower walking speed and vision also play a part."}
+]}
+</script>
+</div>
+
+---
+
+**Next:** [1 · Public health in one hour](01-public-health.qmd)

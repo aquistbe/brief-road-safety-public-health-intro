@@ -1,0 +1,94 @@
+---
+title: "1 · Public health in one hour"
+---
+
+::: {.topic-badges}
+~40 min · reading + quiz
+:::
+
+## What you'll learn
+
+- How public health differs from medicine
+- The three levels of prevention
+- Why injuries aren't "accidents," and the tool researchers use to study them (the Haddon matrix)
+- The Safe System approach to road safety
+- Why changing the environment often works better than telling people to be careful
+
+## 1. Populations, not just patients
+
+A doctor treats the person in front of them. **Public health** asks why so many people are getting sick or hurt in the first place, and what would protect everyone at once.
+
+- **Medicine:** "This patient was struck by a car. Let's treat the broken leg."
+- **Public health:** "Twenty people were struck on this street this year. What about the street is causing that, and what would prevent the next twenty?"
+
+Public health's biggest successes came mostly from changes that protect everyone, not from treating individuals one at a time: clean water, vaccines, smoke-free laws, seat belts and safer cars.
+
+## 2. Three levels of prevention
+
+| Level | Goal | Road safety example |
+|---|---|---|
+| **Primary** | Stop the event from happening | Lower speeds and a refuge island so people can cross in two stages |
+| **Secondary** | Reduce harm when it happens | Car fronts designed to be less deadly to people on foot; lower impact speeds |
+| **Tertiary** | Reduce the long-term damage afterward | Fast ambulance response, trauma care, rehabilitation |
+
+Most of our project is about **primary prevention**: finding street features linked to fewer crashes.
+
+## 3. Injuries are not accidents
+
+"Accident" suggests bad luck that nobody could have predicted. But injuries follow patterns. They happen more on certain streets, at certain times and to certain people, which means they **can be predicted and prevented**. That's why many agencies now say "crash," not "accident."
+
+In the 1960s, **William Haddon Jr.**, a physician and engineer, created a simple grid for thinking about any injury. It's called the **Haddon matrix**:
+
+| | Person | Vehicle | Environment |
+|---|---|---|---|
+| **Before the crash** | Walking at night in dark clothing; alcohol | Driver's view blocked by a tall hood; distraction | No crosswalk; long gap between crossings; poor lighting; high speed limit |
+| **During the crash** | Older age, so the body is more fragile | Impact speed; front-end shape | Hard objects nearby |
+| **After the crash** | Health before the crash | Hit-and-run | Distance to a trauma center; ambulance access |
+
+Notice how many boxes involve the **vehicle and environment**, not just the person walking. Every box is a place where prevention could work.
+
+## 4. The Safe System approach
+
+Traditional road safety often focused on changing behavior ("look both ways," "don't jaywalk"). The **Safe System approach**, adopted in the U.S. National Roadway Safety Strategy (2022), starts from different ideas:
+
+1. Deaths and serious injuries are **unacceptable**.
+2. **People make mistakes.** The road system should allow for them.
+3. **Human bodies are fragile.** There are limits to the crash forces we can survive.
+4. **Responsibility is shared** among road designers, vehicle makers, drivers, people walking, and policymakers.
+5. **Safety should be proactive.** Find and fix risks before crashes happen, not only after.
+6. **Redundancy matters.** If one layer of protection fails, others should still work.
+
+**Vision Zero**, adopted by many cities including Philadelphia, applies the same thinking with a goal of zero traffic deaths.
+
+## 5. Change the environment, not just the person
+
+Public health leaders often describe a **"health impact pyramid"** (Frieden, 2010). Education and counseling sit at the top: they matter, but each person has to change their behavior, every time. At the base are changes that make the safe choice the default, so they protect people **without anyone having to do anything**.
+
+For walking safety:
+
+- **Top of the pyramid:** a campaign telling people to wear bright clothes at night.
+- **Base of the pyramid:** street lighting, slower street designs and safe places to cross.
+
+Both have a role, but the base usually reaches more people and lasts longer. That's why our project studies **streets**, not walkers' behavior.
+
+## Why this matters for your work
+
+The features you label, such as crosswalks, medians, signals and curb ramps, are the **environment column** of the Haddon matrix and the **base of the pyramid**. They're the things a city can actually change.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "What is the main difference between public health and medicine?", "options": ["Public health focuses on preventing problems across whole populations", "Public health only studies diseases", "Medicine never prevents anything", "There is no difference"], "answer": 0, "explain": "Medicine treats individuals; public health protects populations, often through prevention."},
+{"q": "Building a refuge island so people can cross a wide street in two stages is…", "options": ["Primary prevention", "Secondary prevention", "Tertiary prevention", "Not prevention"], "answer": 0, "explain": "It aims to stop crashes from happening in the first place."},
+{"q": "Why do many safety experts avoid the word 'accident'?", "options": ["Crashes follow patterns and can be predicted and prevented", "It's too long", "It sounds too serious", "Insurance companies forbid it"], "answer": 0, "explain": "'Accident' suggests unpredictable bad luck."},
+{"q": "Which is a core idea of the Safe System approach?", "options": ["People make mistakes, so roads should be designed so mistakes aren't fatal", "Safety is only the driver's job", "Crashes are unavoidable", "Education alone can end crashes"], "answer": 0, "explain": "Safe System accepts human error and designs around it."},
+{"q": "On the health impact pyramid, which usually reaches the most people?", "options": ["Changing the environment so the safe choice is the default", "Individual counseling", "Posters", "Asking people to be careful"], "answer": 0, "explain": "Environmental changes protect people without each person having to act."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [0 · Welcome](00-welcome.qmd) · **Next:** [2 · Who gets hurt](02-burden.qmd)

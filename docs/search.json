@@ -1,0 +1,660 @@
+[
+  {
+    "objectID": "readings.html",
+    "href": "readings.html",
+    "title": "Readings",
+    "section": "",
+    "text": "National Highway Traffic Safety Administration. Traffic Safety Facts: Pedestrians, 2023 Data (DOT HS 813 727). June 2025. The source for most U.S. numbers in module 2.\nWorld Health Organization. Global Status Report on Road Safety 2023. Start with the summary.\nU.S. Department of Transportation. National Roadway Safety Strategy. January 2022. The Safe System approach (module 1).\nTefft BC. Impact Speed and a Pedestrian’s Risk of Severe Injury or Death. AAA Foundation for Traffic Safety; 2011. The speed table in module 5.\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. The Belmont Report. 1979 (module 7)."
+  },
+  {
+    "objectID": "readings.html#start-here-everyone",
+    "href": "readings.html#start-here-everyone",
+    "title": "Readings",
+    "section": "",
+    "text": "National Highway Traffic Safety Administration. Traffic Safety Facts: Pedestrians, 2023 Data (DOT HS 813 727). June 2025. The source for most U.S. numbers in module 2.\nWorld Health Organization. Global Status Report on Road Safety 2023. Start with the summary.\nU.S. Department of Transportation. National Roadway Safety Strategy. January 2022. The Safe System approach (module 1).\nTefft BC. Impact Speed and a Pedestrian’s Risk of Severe Injury or Death. AAA Foundation for Traffic Safety; 2011. The speed table in module 5.\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. The Belmont Report. 1979 (module 7)."
+  },
+  {
+    "objectID": "readings.html#go-deeper-college",
+    "href": "readings.html#go-deeper-college",
+    "title": "Readings",
+    "section": "Go deeper (college)",
+    "text": "Go deeper (college)\nPublic health and injury\n\nHaddon W Jr. Advances in the epidemiology of injuries as a basis for public policy. Public Health Reports. 1980;95(5):411–421. PubMed 7422807\nFrieden TR. A framework for public health action: the health impact pyramid. American Journal of Public Health. 2010;100(4):590–595. doi:10.2105/AJPH.2009.185652\n\nWho gets hurt\n\nDumbaugh E, Stiles J. Social vulnerability: a review of the literature on pedestrian crash risk in lower-income and minority communities. Journal of Transport and Land Use. 2025;18(1):221–235. doi:10.5198/jtlu.2025.2547 (open access)\nHu W, Monfort SS, Cicchino JB. The association between passenger-vehicle front-end profiles and pedestrian injury severity in motor vehicle crashes. Journal of Safety Research. 2024;90:115–127. doi:10.1016/j.jsr.2024.06.007\n\nStreets and safety\n\nTefft BC. Impact speed and a pedestrian’s risk of severe injury or death. Accident Analysis & Prevention. 2013;50:871–878. doi:10.1016/j.aap.2012.07.022 (the peer-reviewed version of the AAA report)\nEwing R, Dumbaugh E. The built environment and traffic safety: a review of empirical evidence. Journal of Planning Literature. 2009;23(4):347–367. doi:10.1177/0885412209335553\nZegeer CV, Stewart JR, Huang HH, Lagerwey PA, Feaganes J, Campbell BJ. Safety Effects of Marked versus Unmarked Crosswalks at Uncontrolled Locations: Final Report and Recommended Guidelines. FHWA-HRT-04-100. Federal Highway Administration; 2005.\n\nMethods\n\nRobinson WS. Ecological correlations and the behavior of individuals. American Sociological Review. 1950;15(3):351–357. doi:10.2307/2087176\nHauer E. Observational Before–After Studies in Road Safety. Oxford: Pergamon; 1997. ISBN 978-0-08-043053-9. On regression to the mean and empirical Bayes."
+  },
+  {
+    "objectID": "readings.html#our-teams-work",
+    "href": "readings.html#our-teams-work",
+    "title": "Readings",
+    "section": "Our team’s work",
+    "text": "Our team’s work\nTo be added: published WalkSafe-AI and Bogotá papers, with DOIs."
+  },
+  {
+    "objectID": "modules/07-ethics.html",
+    "href": "modules/07-ethics.html",
+    "title": "7 · Research ethics and data rules",
+    "section": "",
+    "text": "~25 min · reading + quiz"
+  },
+  {
+    "objectID": "modules/07-ethics.html#what-youll-learn",
+    "href": "modules/07-ethics.html#what-youll-learn",
+    "title": "7 · Research ethics and data rules",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nWhy research has ethics rules, and the three principles behind them\nWhat an IRB does\nThe data rules for our project, and the reasons for each\nHow credit works in research\nHow to use AI tools responsibly in research work"
+  },
+  {
+    "objectID": "modules/07-ethics.html#why-research-ethics-exists",
+    "href": "modules/07-ethics.html#why-research-ethics-exists",
+    "title": "7 · Research ethics and data rules",
+    "section": "1. Why research ethics exists",
+    "text": "1. Why research ethics exists\nResearch rules weren’t invented to slow people down. They were written after real harm was done.\nThe best-known U.S. example is the U.S. Public Health Service syphilis study at Tuskegee (1932–1972). Researchers followed hundreds of Black men with syphilis for decades without telling them their diagnosis, and kept treating them even after penicillin became the standard cure. When the study became public, the outrage led to new federal protections for research participants.\nIn 1979, a national commission published the Belmont Report. It sets out three principles that still guide U.S. research:\n\n\n\n\n\n\n\n\nPrinciple\nWhat it means\nIn everyday terms\n\n\n\n\nRespect for persons\nPeople decide for themselves whether to take part (informed consent). Extra protection goes to those who can’t fully decide.\nAsk, explain and accept “no.”\n\n\nBeneficence\nMaximize benefits and minimize harms.\nDon’t hurt people, and make the research worth doing.\n\n\nJustice\nShare the burdens and benefits of research fairly.\nDon’t study only the people who are easiest to study, or leave out the people who would benefit."
+  },
+  {
+    "objectID": "modules/07-ethics.html#what-an-irb-does",
+    "href": "modules/07-ethics.html#what-an-irb-does",
+    "title": "7 · Research ethics and data rules",
+    "section": "2. What an IRB does",
+    "text": "2. What an IRB does\nAn Institutional Review Board (IRB) is a committee at a university or hospital. It reviews research that involves people before the research starts. It checks that risks are low, consent is real, and private information is protected.\nNot every project counts as “human subjects research.” Studying public streets, for example, isn’t the same as studying people. But universities still have rules for anyone who works on research, and some projects need training before you start. Your supervisor will tell you what’s required for your role."
+  },
+  {
+    "objectID": "modules/07-ethics.html#our-data-rules-and-why",
+    "href": "modules/07-ethics.html#our-data-rules-and-why",
+    "title": "7 · Research ethics and data rules",
+    "section": "3. Our data rules, and why",
+    "text": "3. Our data rules, and why\n\n\n\n\n\n\n\nRule\nWhy\n\n\n\n\nNever take screenshots, save, copy, download or print street images.\nThe images belong to the company that took them, and its terms limit storing them. We keep only an image id, never the picture.\n\n\nDon’t try to work out where an image is.\nKnowing the location could affect how you label (module 6), and locations can be sensitive.\n\n\nNever describe a location in notes.\nSame reasons. Notes should be about the labeling rules, not the place.\n\n\nNever try to identify a person or vehicle you see in an image.\nThe people in street images didn’t agree to be studied. Respect for persons applies to them too.\n\n\nDon’t share your login or let anyone else work under it.\nEvery label must be traceable to the person who made it, or the reliability checks in module 6 fall apart.\n\n\nDon’t share project files outside the team. Don’t post about specific images or results online.\nResults aren’t final until they’ve been checked and published. Sharing early can spread mistakes.\n\n\nDon’t change settings or export data unless you’re asked to.\nSettings and exports are part of the study record.\n\n\n\nIf something happens by accident (say, you took a screenshot without thinking), tell your supervisor. Delete it, and that’s the end of it. Honest mistakes reported quickly are easy to fix. Hidden ones aren’t."
+  },
+  {
+    "objectID": "modules/07-ethics.html#how-credit-works",
+    "href": "modules/07-ethics.html#how-credit-works",
+    "title": "7 · Research ethics and data rules",
+    "section": "4. How credit works",
+    "text": "4. How credit works\n\nAuthorship on a scientific paper usually requires all four of these (the ICMJE criteria): a substantial contribution to the work, helping write or critically revise the paper, approving the final version, and agreeing to be accountable for it.\nAcknowledgment recognizes people who helped in other ways, such as labeling data, checking records or reading papers. Volunteers are usually thanked by name, with permission.\nMany journals now use the CRediT list of roles (such as data curation or investigation) to say exactly who did what.\n\nIf you’d like to work toward authorship, say so. Your supervisor can tell you what it would take."
+  },
+  {
+    "objectID": "modules/07-ethics.html#ai-tools",
+    "href": "modules/07-ethics.html#ai-tools",
+    "title": "7 · Research ethics and data rules",
+    "section": "5. AI tools",
+    "text": "5. AI tools\nAI tools such as chatbots can help you learn. For example, you could ask one to explain confounding a different way. But:\n\nNever paste project materials, images, notes or data into an AI tool unless your supervisor has said that tool is approved for it.\nAI makes things up, including fake references. Check anything it tells you against a real source.\nIf AI helped you with something you hand in, say so."
+  },
+  {
+    "objectID": "modules/07-ethics.html#why-this-matters-for-your-work",
+    "href": "modules/07-ethics.html#why-this-matters-for-your-work",
+    "title": "7 · Research ethics and data rules",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\nThese rules protect the people in the images, the project’s permission to use its data, and the credibility of the results. Following them is part of doing the work well."
+  },
+  {
+    "objectID": "modules/07-ethics.html#check-yourself",
+    "href": "modules/07-ethics.html#check-yourself",
+    "title": "7 · Research ethics and data rules",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 6 · Measuring streets · Next: 8 · Research to safer streets"
+  },
+  {
+    "objectID": "modules/05-built-environment.html",
+    "href": "modules/05-built-environment.html",
+    "title": "5 · Streets, design and safety",
+    "section": "",
+    "text": "~30 min · reading + quiz"
+  },
+  {
+    "objectID": "modules/05-built-environment.html#what-youll-learn",
+    "href": "modules/05-built-environment.html#what-youll-learn",
+    "title": "5 · Streets, design and safety",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nWhy speed matters more than almost anything else\nCommon street features that make walking safer\nHow strong the evidence is, and how to judge a study\nWhere our labeling checklist comes from"
+  },
+  {
+    "objectID": "modules/05-built-environment.html#speed-and-the-human-body",
+    "href": "modules/05-built-environment.html#speed-and-the-human-body",
+    "title": "5 · Streets, design and safety",
+    "section": "1. Speed and the human body",
+    "text": "1. Speed and the human body\nA study of U.S. crashes (Tefft, AAA Foundation for Traffic Safety, 2011) estimated a pedestrian’s risk of death by the speed of the car at impact:\n\n\n\nImpact speed\nRisk of death\n\n\n\n\n23 mph\n10%\n\n\n32 mph\n25%\n\n\n42 mph\n50%\n\n\n50 mph\n75%\n\n\n58 mph\n90%\n\n\n\nGoing from about 20 to about 40 mph doesn’t double the danger; it multiplies it several times. Speed also affects whether a crash happens at all: faster drivers need more distance to stop and see less of what’s beside the road.\nThat’s why so many safety designs work by slowing cars down where people walk."
+  },
+  {
+    "objectID": "modules/05-built-environment.html#features-that-make-walking-safer",
+    "href": "modules/05-built-environment.html#features-that-make-walking-safer",
+    "title": "5 · Streets, design and safety",
+    "section": "2. Features that make walking safer",
+    "text": "2. Features that make walking safer\nThe U.S. Federal Highway Administration (FHWA) keeps a list of Proven Safety Countermeasures. Several are for people walking:\n\n\n\n\n\n\n\n\nFeature\nWhat it is\nHow it helps\n\n\n\n\nHigh-visibility crosswalk\nBold bar markings, often with signs and lighting\nDrivers see the crossing and the person in it\n\n\nPedestrian refuge island\nA raised island in the middle of the street\nPeople cross one direction of traffic at a time\n\n\nCurb extension (bulb-out)\nSidewalk built out into the parking lane at a corner\nShorter crossing; people can see and be seen\n\n\nLeading pedestrian interval\nThe walk signal starts a few seconds before cars get green\nPeople are already in the crosswalk before turning cars arrive\n\n\nPedestrian hybrid beacon (HAWK)\nAn overhead signal that stops traffic only when a pedestrian pushes the button\nA protected crossing on busy roads without a full signal\n\n\nRRFB\nBright flashing yellow lights on a crossing sign\nDraws drivers’ attention to a person waiting to cross\n\n\nRoad diet\nTurning, for example, four lanes into two plus a center turn lane\nLower speeds and fewer lanes to cross\n\n\nLighting\nBetter street lighting at crossings\nMost pedestrian deaths happen after dark (module 2)\n\n\n\nFHWA reports, for example, that refuge islands reduce pedestrian crashes by about 32%, and pedestrian hybrid beacons by about 55%."
+  },
+  {
+    "objectID": "modules/05-built-environment.html#how-strong-is-the-evidence",
+    "href": "modules/05-built-environment.html#how-strong-is-the-evidence",
+    "title": "5 · Streets, design and safety",
+    "section": "3. How strong is the evidence?",
+    "text": "3. How strong is the evidence?\nNot all studies are equally convincing. From weakest to strongest, roughly:\n\nCross-sectional: compare streets that have a feature with streets that don’t, at one point in time. This is the most open to confounding (module 4), because features aren’t placed at random.\nSimple before–after: count crashes before and after a feature is installed. This is open to regression to the mean if the sites were chosen because they were bad.\nBefore–after with comparison sites: compare the change at treated sites with the change at similar untreated sites over the same years.\nBefore–after with empirical Bayes: like 3, plus a statistical correction for regression to the mean. This is the standard in road safety.\n\nA famous example of why this matters: early studies found that marked crosswalks alone, with no other features, on wide, busy roads were linked with more pedestrian crashes than unmarked crossings. Paint alone may not be enough on fast multi-lane roads. The usual advice is to add other features, such as refuge islands or beacons, there. (Zegeer et al., FHWA, 2005)"
+  },
+  {
+    "objectID": "modules/05-built-environment.html#where-our-checklist-comes-from",
+    "href": "modules/05-built-environment.html#where-our-checklist-comes-from",
+    "title": "5 · Streets, design and safety",
+    "section": "4. Where our checklist comes from",
+    "text": "4. Where our checklist comes from\nTo measure streets consistently, researchers use audit tools: checklists of street features with exact definitions. Our labeling classes descend from an audit tool called CANVAS, adapted for images. Because related projects share this ancestry, their checklists aren’t fully independent measures. That matters when comparing results across studies."
+  },
+  {
+    "objectID": "modules/05-built-environment.html#why-this-matters-for-your-work",
+    "href": "modules/05-built-environment.html#why-this-matters-for-your-work",
+    "title": "5 · Streets, design and safety",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\nMost of the classes you’ll label (crosswalks, medians and refuge islands, curb extensions, signals, beacons, lane markings) are on the list above. Your labels let researchers ask whether these features are linked to fewer crashes across a whole city, not just at a few sites."
+  },
+  {
+    "objectID": "modules/05-built-environment.html#check-yourself",
+    "href": "modules/05-built-environment.html#check-yourself",
+    "title": "5 · Streets, design and safety",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 4 · Thinking like an epidemiologist · Next: 6 · Measuring streets"
+  },
+  {
+    "objectID": "modules/03-crash-data.html",
+    "href": "modules/03-crash-data.html",
+    "title": "3 · Where crash data come from",
+    "section": "",
+    "text": "~25 min · reading + quiz"
+  },
+  {
+    "objectID": "modules/03-crash-data.html#what-youll-learn",
+    "href": "modules/03-crash-data.html#what-youll-learn",
+    "title": "3 · Where crash data come from",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nThe main sources of crash and injury data\nHow injury severity is recorded\nWhat these data sources miss\nWhy studying one street is harder than it looks"
+  },
+  {
+    "objectID": "modules/03-crash-data.html#police-crash-reports",
+    "href": "modules/03-crash-data.html#police-crash-reports",
+    "title": "3 · Where crash data come from",
+    "section": "1. Police crash reports",
+    "text": "1. Police crash reports\nMost crash data start with a police report. An officer at the scene fills in a form: date, time, location, the people and vehicles involved, road and weather conditions, and how badly people seem to be hurt. States collect these reports into databases.\nPolice reports are the most complete source on where crashes happen, which makes them central to street-level research. But they’re filled in quickly, at the scene, by people who aren’t doctors."
+  },
+  {
+    "objectID": "modules/03-crash-data.html#national-databases",
+    "href": "modules/03-crash-data.html#national-databases",
+    "title": "3 · Where crash data come from",
+    "section": "2. National databases",
+    "text": "2. National databases\n\n\n\n\n\n\n\n\nSource\nWhat it covers\nRun by\n\n\n\n\nFARS (Fatality Analysis Reporting System)\nEvery crash on a public road in which someone died within 30 days. National data back to 1975.\nNHTSA\n\n\nCRSS (Crash Report Sampling System)\nA national sample of police reports of all severities, used to estimate totals\nNHTSA\n\n\nNEISS (National Electronic Injury Surveillance System)\nA sample of about 100 hospital emergency departments, used to estimate injuries nationally\nU.S. Consumer Product Safety Commission\n\n\nHospital and trauma registries\nDetailed medical information on people treated\nStates and hospitals"
+  },
+  {
+    "objectID": "modules/03-crash-data.html#how-severity-is-recorded-kabco",
+    "href": "modules/03-crash-data.html#how-severity-is-recorded-kabco",
+    "title": "3 · Where crash data come from",
+    "section": "3. How severity is recorded: KABCO",
+    "text": "3. How severity is recorded: KABCO\nPolice usually record injuries on the KABCO scale:\n\n\n\nCode\nMeaning\n\n\n\n\nK\nKilled\n\n\nA\nSuspected serious injury\n\n\nB\nSuspected minor injury\n\n\nC\nPossible injury\n\n\nO\nNo apparent injury\n\n\n\nResearchers often combine K and A into KSI: killed or seriously injured."
+  },
+  {
+    "objectID": "modules/03-crash-data.html#what-the-data-miss",
+    "href": "modules/03-crash-data.html#what-the-data-miss",
+    "title": "3 · Where crash data come from",
+    "section": "4. What the data miss",
+    "text": "4. What the data miss\n\nUnderreporting. Many crashes involving people walking or cycling, especially minor ones, never reach a police report. The person may go home, or straight to a hospital.\nSeverity guesses. An officer’s “A” or “B” at the scene can differ from what doctors later find.\nLocation errors. The location may be recorded at the nearest intersection, or not exactly.\nMissing exposure. Crash data say nothing about how many people walked safely past the same spot (module 4).\n\nLinking police reports to hospital records helps fill these gaps, but it’s hard to do."
+  },
+  {
+    "objectID": "modules/03-crash-data.html#why-one-street-is-hard-to-study",
+    "href": "modules/03-crash-data.html#why-one-street-is-hard-to-study",
+    "title": "3 · Where crash data come from",
+    "section": "5. Why one street is hard to study",
+    "text": "5. Why one street is hard to study\nFatal crashes are, thankfully, rare on any single street. A block might have zero deaths for ten years, then one. Was the street dangerous, or unlucky? You can’t tell from one block.\nThat’s why researchers:\n\nuse KSI, or all injury crashes, not just deaths, to get more events;\nstudy many streets at once, and compare streets with and without a feature;\nuse statistical methods that account for chance (module 4, regression to the mean).\n\n\n\n\n\n\n\nNoteGo deeper (college)\n\n\n\n\n\n\nFARS counts deaths within 30 days of the crash; other systems define deaths differently.\nCRSS and NEISS are samples, so their national totals are estimates with uncertainty. FARS is a census.\nCrash counts per street segment are usually modeled with negative binomial regression. Counts vary more than a simple Poisson model expects."
+  },
+  {
+    "objectID": "modules/03-crash-data.html#why-this-matters-for-your-work",
+    "href": "modules/03-crash-data.html#why-this-matters-for-your-work",
+    "title": "3 · Where crash data come from",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\nCrash data tell us where people were hurt. Your labels tell us what the street looked like. The study needs both, linked carefully."
+  },
+  {
+    "objectID": "modules/03-crash-data.html#check-yourself",
+    "href": "modules/03-crash-data.html#check-yourself",
+    "title": "3 · Where crash data come from",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 2 · Who gets hurt · Next: 4 · Thinking like an epidemiologist"
+  },
+  {
+    "objectID": "modules/01-public-health.html",
+    "href": "modules/01-public-health.html",
+    "title": "1 · Public health in one hour",
+    "section": "",
+    "text": "~40 min · reading + quiz"
+  },
+  {
+    "objectID": "modules/01-public-health.html#what-youll-learn",
+    "href": "modules/01-public-health.html#what-youll-learn",
+    "title": "1 · Public health in one hour",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nHow public health differs from medicine\nThe three levels of prevention\nWhy injuries aren’t “accidents,” and the tool researchers use to study them (the Haddon matrix)\nThe Safe System approach to road safety\nWhy changing the environment often works better than telling people to be careful"
+  },
+  {
+    "objectID": "modules/01-public-health.html#populations-not-just-patients",
+    "href": "modules/01-public-health.html#populations-not-just-patients",
+    "title": "1 · Public health in one hour",
+    "section": "1. Populations, not just patients",
+    "text": "1. Populations, not just patients\nA doctor treats the person in front of them. Public health asks why so many people are getting sick or hurt in the first place, and what would protect everyone at once.\n\nMedicine: “This patient was struck by a car. Let’s treat the broken leg.”\nPublic health: “Twenty people were struck on this street this year. What about the street is causing that, and what would prevent the next twenty?”\n\nPublic health’s biggest successes came mostly from changes that protect everyone, not from treating individuals one at a time: clean water, vaccines, smoke-free laws, seat belts and safer cars."
+  },
+  {
+    "objectID": "modules/01-public-health.html#three-levels-of-prevention",
+    "href": "modules/01-public-health.html#three-levels-of-prevention",
+    "title": "1 · Public health in one hour",
+    "section": "2. Three levels of prevention",
+    "text": "2. Three levels of prevention\n\n\n\n\n\n\n\n\nLevel\nGoal\nRoad safety example\n\n\n\n\nPrimary\nStop the event from happening\nLower speeds and a refuge island so people can cross in two stages\n\n\nSecondary\nReduce harm when it happens\nCar fronts designed to be less deadly to people on foot; lower impact speeds\n\n\nTertiary\nReduce the long-term damage afterward\nFast ambulance response, trauma care, rehabilitation\n\n\n\nMost of our project is about primary prevention: finding street features linked to fewer crashes."
+  },
+  {
+    "objectID": "modules/01-public-health.html#injuries-are-not-accidents",
+    "href": "modules/01-public-health.html#injuries-are-not-accidents",
+    "title": "1 · Public health in one hour",
+    "section": "3. Injuries are not accidents",
+    "text": "3. Injuries are not accidents\n“Accident” suggests bad luck that nobody could have predicted. But injuries follow patterns. They happen more on certain streets, at certain times and to certain people, which means they can be predicted and prevented. That’s why many agencies now say “crash,” not “accident.”\nIn the 1960s, William Haddon Jr., a physician and engineer, created a simple grid for thinking about any injury. It’s called the Haddon matrix:\n\n\n\n\n\n\n\n\n\n\nPerson\nVehicle\nEnvironment\n\n\n\n\nBefore the crash\nWalking at night in dark clothing; alcohol\nDriver’s view blocked by a tall hood; distraction\nNo crosswalk; long gap between crossings; poor lighting; high speed limit\n\n\nDuring the crash\nOlder age, so the body is more fragile\nImpact speed; front-end shape\nHard objects nearby\n\n\nAfter the crash\nHealth before the crash\nHit-and-run\nDistance to a trauma center; ambulance access\n\n\n\nNotice how many boxes involve the vehicle and environment, not just the person walking. Every box is a place where prevention could work."
+  },
+  {
+    "objectID": "modules/01-public-health.html#the-safe-system-approach",
+    "href": "modules/01-public-health.html#the-safe-system-approach",
+    "title": "1 · Public health in one hour",
+    "section": "4. The Safe System approach",
+    "text": "4. The Safe System approach\nTraditional road safety often focused on changing behavior (“look both ways,” “don’t jaywalk”). The Safe System approach, adopted in the U.S. National Roadway Safety Strategy (2022), starts from different ideas:\n\nDeaths and serious injuries are unacceptable.\nPeople make mistakes. The road system should allow for them.\nHuman bodies are fragile. There are limits to the crash forces we can survive.\nResponsibility is shared among road designers, vehicle makers, drivers, people walking, and policymakers.\nSafety should be proactive. Find and fix risks before crashes happen, not only after.\nRedundancy matters. If one layer of protection fails, others should still work.\n\nVision Zero, adopted by many cities including Philadelphia, applies the same thinking with a goal of zero traffic deaths."
+  },
+  {
+    "objectID": "modules/01-public-health.html#change-the-environment-not-just-the-person",
+    "href": "modules/01-public-health.html#change-the-environment-not-just-the-person",
+    "title": "1 · Public health in one hour",
+    "section": "5. Change the environment, not just the person",
+    "text": "5. Change the environment, not just the person\nPublic health leaders often describe a “health impact pyramid” (Frieden, 2010). Education and counseling sit at the top: they matter, but each person has to change their behavior, every time. At the base are changes that make the safe choice the default, so they protect people without anyone having to do anything.\nFor walking safety:\n\nTop of the pyramid: a campaign telling people to wear bright clothes at night.\nBase of the pyramid: street lighting, slower street designs and safe places to cross.\n\nBoth have a role, but the base usually reaches more people and lasts longer. That’s why our project studies streets, not walkers’ behavior."
+  },
+  {
+    "objectID": "modules/01-public-health.html#why-this-matters-for-your-work",
+    "href": "modules/01-public-health.html#why-this-matters-for-your-work",
+    "title": "1 · Public health in one hour",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\nThe features you label, such as crosswalks, medians, signals and curb ramps, are the environment column of the Haddon matrix and the base of the pyramid. They’re the things a city can actually change."
+  },
+  {
+    "objectID": "modules/01-public-health.html#check-yourself",
+    "href": "modules/01-public-health.html#check-yourself",
+    "title": "1 · Public health in one hour",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 0 · Welcome · Next: 2 · Who gets hurt"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome, student volunteers",
+    "section": "",
+    "text": "An introduction to public health, injury epidemiology and pedestrian safety research, for high school and college students joining our team.\nYou may be joining us to label street images, check data, read papers, or help in another way. Whatever the task, it helps to know why the work matters and how researchers think about it. This orientation covers that.\nYou don’t need any background in public health or statistics. If you’re in college and want more detail, look for the Go deeper boxes."
+  },
+  {
+    "objectID": "index.html#how-to-use-this-site",
+    "href": "index.html#how-to-use-this-site",
+    "title": "Welcome, student volunteers",
+    "section": "How to use this site",
+    "text": "How to use this site\n\nGo through the modules in order. Each takes 20 to 40 minutes.\nEach module ends with a short quiz. It isn’t graded and nobody sees your score. It’s there so you can check yourself.\nUse the search box (top right) to find any term. The Glossary explains the jargon.\nWhen you finish, go through the Completion checklist with your supervisor."
+  },
+  {
+    "objectID": "index.html#modules",
+    "href": "index.html#modules",
+    "title": "Welcome, student volunteers",
+    "section": "Modules",
+    "text": "Modules\n\n\n\n#\nModule\nTime\nStatus\n\n\n\n\n0\nWelcome: how the project fits together\n20 min\nReady\n\n\n1\nPublic health in one hour\n40 min\nReady\n\n\n2\nWho gets hurt walking, and why\n30 min\nReady\n\n\n3\nWhere crash data come from\n25 min\nReady\n\n\n4\nThinking like an epidemiologist\n40 min\nReady\n\n\n5\nStreets, design and safety\n30 min\nReady\n\n\n6\nMeasuring streets from images\n35 min\nReady\n\n\n7\nResearch ethics and data rules\n25 min\nReady\n\n\n8\nFrom research to safer streets\n20 min\nReady\n\n\n\n\n\n\n\n\n\nTipLabeling images?\n\n\n\nDo modules 0, 4, 6 and 7 before you start labeling. They explain the rules you’ll follow, the data rules, and the reasons for them."
+  },
+  {
+    "objectID": "index.html#questions",
+    "href": "index.html#questions",
+    "title": "Welcome, student volunteers",
+    "section": "Questions",
+    "text": "Questions\nAsk your supervisor. There are no silly questions. In research, the person who asks “why do we do it this way?” often catches a mistake."
+  },
+  {
+    "objectID": "checklist.html",
+    "href": "checklist.html",
+    "title": "Completion checklist",
+    "section": "",
+    "text": "Go through this with your supervisor when you’ve finished the modules."
+  },
+  {
+    "objectID": "checklist.html#modules",
+    "href": "checklist.html#modules",
+    "title": "Completion checklist",
+    "section": "Modules",
+    "text": "Modules\n\n0 · Welcome\n1 · Public health in one hour\n2 · Who gets hurt walking, and why\n3 · Where crash data come from\n4 · Thinking like an epidemiologist\n5 · Streets, design and safety\n6 · Measuring streets from images\n7 · Research ethics and data rules\n8 · From research to safer streets"
+  },
+  {
+    "objectID": "checklist.html#before-you-start-project-work",
+    "href": "checklist.html#before-you-start-project-work",
+    "title": "Completion checklist",
+    "section": "Before you start project work",
+    "text": "Before you start project work\n\nAny required training is done (your supervisor will tell you which, if any)\nYou’ve read the instructions for your specific task\nYou know who to ask, and how\nYou can explain in one sentence what the project does and what isn’t built yet\nYou can explain why exposure matters (module 4)\nYou can explain why labelers work blind and follow “label only what you see” (module 6)\nYou know the data rules: no screenshots, no saving or sharing images, no trying to locate images (module 7)"
+  },
+  {
+    "objectID": "checklist.html#supervisor-sign-off",
+    "href": "checklist.html#supervisor-sign-off",
+    "title": "Completion checklist",
+    "section": "Supervisor sign-off",
+    "text": "Supervisor sign-off\nDate: ________ Supervisor: ________________"
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Plain-language definitions. Use the search box to jump to a term.\n\n\n\n\n\n\n\nTerm\nMeaning\n\n\n\n\nConfounder\nSomething linked to both the feature being studied and the outcome, which can create a false association. Example: foot traffic, which is linked to both crosswalks and crashes.\n\n\nCount\nThe number of events, like crashes, without dividing by anything.\n\n\nDenominator\nThe number you divide by to turn a count into a rate, such as people, walkers or miles walked.\n\n\nEcological fallacy\nWrongly concluding something about individuals from data about areas.\n\n\nEmpirical Bayes (EB)\nA statistical method that pulls very high or low crash counts toward what’s typical for similar streets, to reduce regression to the mean.\n\n\nEpidemiology\nThe study of how health problems are distributed in populations, and what causes them.\n\n\nExposure\nHow much people are at risk. For pedestrians: how many walk, how far, and how much traffic they meet.\n\n\nFARS\nFatality Analysis Reporting System: the U.S. national database of fatal crashes.\n\n\nHAWK / PHB\nPedestrian hybrid beacon: an overhead signal that stays dark until a pedestrian pushes a button.\n\n\nHIN\nHigh-injury network: the small share of a city’s streets where most serious crashes happen.\n\n\nInter-rater reliability\nHow well two or more labelers agree when they label the same things independently.\n\n\nIoU\nIntersection over union: how much two drawn boxes overlap, from 0 (none) to 1 (identical).\n\n\nIRB\nInstitutional Review Board: the committee that reviews research involving people to protect them.\n\n\nKappa (κ)\nA measure of agreement between raters that removes the agreement expected by chance.\n\n\nKABCO\nThe police scale of injury severity: K = killed, A = serious, B = minor, C = possible, O = none.\n\n\nKSI\nKilled or seriously injured (K + A on the KABCO scale).\n\n\nRate\nA count divided by a denominator, such as crashes per 1,000 walkers.\n\n\nRegression to the mean\nThe tendency of unusually high or low values to be closer to average next time, by chance alone.\n\n\nReliability\nConsistency: getting the same answer each time.\n\n\nRRFB\nRectangular rapid-flashing beacon: yellow flashing lights on a pedestrian crossing sign.\n\n\nSafe System\nAn approach to road safety that assumes people will make mistakes and designs roads so that mistakes aren’t fatal.\n\n\nValidity\nAccuracy: measuring what you mean to measure.\n\n\nVision Zero\nA goal and strategy of zero traffic deaths and serious injuries.\n\n\nZAT\nA transport analysis zone in Bogotá (zona de análisis de transporte), used for area-level analysis."
+  },
+  {
+    "objectID": "modules/00-welcome.html",
+    "href": "modules/00-welcome.html",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "",
+    "text": "~20 min · reading + quiz"
+  },
+  {
+    "objectID": "modules/00-welcome.html#what-youll-learn",
+    "href": "modules/00-welcome.html#what-youll-learn",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nWhat our research team studies, and why\nWhere your work fits in the bigger picture\nWhat we expect from volunteers, and what you can expect from us"
+  },
+  {
+    "objectID": "modules/00-welcome.html#the-problem",
+    "href": "modules/00-welcome.html#the-problem",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "The problem",
+    "text": "The problem\nIn 2023, 7,314 people were killed while walking in the United States, about one every 72 minutes, and about 68,000 more were injured (NHTSA). Most of these deaths can be prevented. They don’t happen at random. They cluster on certain kinds of streets, at certain times, and among certain groups of people. Older adults are hit especially hard: as we age we walk more slowly, see less well at night, and are more likely to die from an injury that a younger person would survive.\nWhen something is common, serious and preventable, it’s a public health problem, not just bad luck."
+  },
+  {
+    "objectID": "modules/00-welcome.html#what-our-project-does",
+    "href": "modules/00-welcome.html#what-our-project-does",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "What our project does",
+    "text": "What our project does\nWalkSafe-AI is a research project funded by the U.S. National Institutes of Health (National Institute on Aging). We ask one question:\n\nWhich features of a street make walking more or less dangerous, and can we measure those features across a whole city?\n\nSending people to walk every street with a clipboard (a “street audit”) works, but it’s slow and expensive. So we’re testing whether computers can do part of the job by “reading” street-level photos. They would look for things like crosswalks, sidewalks, traffic lights, medians and curb ramps.\nFor a computer to learn this, and for us to check whether it got it right, people have to label images carefully first. That’s often where volunteers come in."
+  },
+  {
+    "objectID": "modules/00-welcome.html#where-your-work-fits",
+    "href": "modules/00-welcome.html#where-your-work-fits",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "Where your work fits",
+    "text": "Where your work fits\n Street images      People label         Computer models     We compare labels     Link street features\n (we never keep  -&gt;  what they see   -&gt;   learn to find   -&gt;  from people and   -&gt;  to crash data, with\n  copies)            (you!)               the same things     models                careful statistics\nEach step depends on the one before it. If the labels are inconsistent, everything after them is weaker. Careful, consistent labeling is real scientific work."
+  },
+  {
+    "objectID": "modules/00-welcome.html#where-things-stand",
+    "href": "modules/00-welcome.html#where-things-stand",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "Where things stand",
+    "text": "Where things stand\nWe try to be accurate about what’s finished and what isn’t:\n\nBogotá, Colombia: demonstrated. Earlier published work measured 27 street features from images across the city and linked them to crashes.\nPhiladelphia: an early prototype, plus one completed study testing how well computer-made measurements match crash patterns.\nPlanned tools (for example, tools to help cities choose where to invest) are not built yet.\n\nIf you describe the project to anyone (friends, teachers, college applications), use this wording. Please don’t say it does more than it does."
+  },
+  {
+    "objectID": "modules/00-welcome.html#what-we-expect-from-you",
+    "href": "modules/00-welcome.html#what-we-expect-from-you",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "What we expect from you",
+    "text": "What we expect from you\n\nFollow the written rules, even when you think you know better. If a rule seems wrong, ask. Don’t quietly work around it.\nAsk when unsure. Write down what confused you (for labeling, the tile id) and ask your supervisor.\nProtect the data. Module 7 explains the rules, such as never taking screenshots of images.\nBe honest about your time. Tell us if you get busy. It’s much better than rushing."
+  },
+  {
+    "objectID": "modules/00-welcome.html#what-you-can-expect-from-us",
+    "href": "modules/00-welcome.html#what-you-can-expect-from-us",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "What you can expect from us",
+    "text": "What you can expect from us\n\nClear instructions, and quick answers to your questions.\nCredit for your work. Module 7 explains how research credit works.\nA reference or letter if you’ve done good work and want one."
+  },
+  {
+    "objectID": "modules/00-welcome.html#why-this-matters-for-your-work",
+    "href": "modules/00-welcome.html#why-this-matters-for-your-work",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\nYou’re not just “helping out.” The quality of the whole study depends on the quality of the labels and checks you do."
+  },
+  {
+    "objectID": "modules/00-welcome.html#check-yourself",
+    "href": "modules/00-welcome.html#check-yourself",
+    "title": "0 · Welcome: how the project fits together",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nNext: 1 · Public health in one hour"
+  },
+  {
+    "objectID": "modules/02-burden.html",
+    "href": "modules/02-burden.html",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "",
+    "text": "~30 min · reading + quiz"
+  },
+  {
+    "objectID": "modules/02-burden.html#what-youll-learn",
+    "href": "modules/02-burden.html#what-youll-learn",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nHow many people are killed and hurt while walking, in the U.S. and worldwide\nWhere and when it happens\nWhy older adults are a focus of our project\nWhy risk isn’t shared equally"
+  },
+  {
+    "objectID": "modules/02-burden.html#the-numbers",
+    "href": "modules/02-burden.html#the-numbers",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "1. The numbers",
+    "text": "1. The numbers\nUnited States, 2023 (NHTSA, Traffic Safety Facts: Pedestrians, 2023 Data):\n\n7,314 people were killed while walking. That’s about one every 72 minutes.\nAbout 68,000 more were injured.\nPeople walking were 18% of everyone killed in traffic, up from 15% in 2014.\nPedestrian deaths rose from 4,910 in 2014 to a peak of 7,593 in 2022, even though cars got safer for the people inside them.\n\nWorldwide (WHO, Global Status Report on Road Safety 2023):\n\nAbout 1.19 million people die in road crashes each year.\nAbout 23% of them, roughly 274,000 people, were walking.\nBetween 2010 and 2021, total road deaths fell slightly, but pedestrian deaths rose by about 3%."
+  },
+  {
+    "objectID": "modules/02-burden.html#where-and-when",
+    "href": "modules/02-burden.html#where-and-when",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "2. Where and when",
+    "text": "2. Where and when\nFrom the same 2023 U.S. data:\n\n\n\nFact\nShare of pedestrian deaths\n\n\n\n\nIn urban areas\n84%\n\n\nNot at an intersection (mid-block, along roads)\n74%\n\n\nIn the dark\n77%\n\n\nHit-and-run\n24%\n\n\nMale\n70%\n\n\n\nTwo patterns stand out. Most deaths happen away from intersections, often where there’s no safe place to cross nearby. And most happen after dark, when drivers see less and often drive faster."
+  },
+  {
+    "objectID": "modules/02-burden.html#older-adults",
+    "href": "modules/02-burden.html#older-adults",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "3. Older adults",
+    "text": "3. Older adults\nOur project is funded by the National Institute on Aging, so older adults (we use 60 and over, following the World Health Organization) are a focus.\n\nIn 2023, people 60 and over were about 24% of the U.S. population but about 30% of pedestrian deaths.\nTheir death rate was 2.7 per 100,000 people, compared with 2.0 for people under 60.\n\nWhy?\n\nFrailty: the same impact is more likely to kill an older person.\nWalking speed: many crossing signals are timed for faster walkers.\nVision and hearing: these can make it harder to judge gaps in traffic, especially at night.\nAging in place: many older adults want to keep living independently, and walking is how many of them get groceries, see friends and stay active. Unsafe streets can mean staying home, which harms health in other ways.\n\n\n\n\n\n\n\nNoteSaying it accurately\n\n\n\nOlder adults are over-represented among pedestrian deaths. But in 2023 the highest rates by age group were among adults in their 40s to early 60s. Don’t say older adults have “the highest rate of any age group.” It isn’t true, and getting details right is part of being trusted."
+  },
+  {
+    "objectID": "modules/02-burden.html#risk-isnt-shared-equally",
+    "href": "modules/02-burden.html#risk-isnt-shared-equally",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "4. Risk isn’t shared equally",
+    "text": "4. Risk isn’t shared equally\nA 2025 review of U.S. research (Dumbaugh and Stiles) found that, per person:\n\nLower-income areas have about 3 times as many pedestrian deaths as wealthier areas.\nCompared with White non-Hispanic people, Hispanic people are about 1.6 times, Black people about 1.7 times, and American Indian and Alaska Native people about 4 times as likely to be killed while walking.\n\nThe same review found little support for the usual explanations, such as “they just walk more” or drinking. The biggest difference was why people walk:\n\nWealthier households walk mostly for leisure. If a street feels unsafe, they can walk somewhere else, or drive.\nLower-income households walk mostly because they have to: to work, school, shops and the bus. They can’t avoid dangerous streets.\nRoad design and investment make it worse. Wide, fast roads with few safe crossings often run through lower-income neighborhoods.\n\nThis is a health equity issue: avoidable, unfair differences in health between groups."
+  },
+  {
+    "objectID": "modules/02-burden.html#beyond-the-u.s.",
+    "href": "modules/02-burden.html#beyond-the-u.s.",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "5. Beyond the U.S.",
+    "text": "5. Beyond the U.S.\nIn many cities in Latin America, Africa and Asia, people walking make up a larger share of road deaths than in the U.S. Part of our team’s earlier work was in Bogotá, Colombia. There, researchers measured street features from images across the whole city and linked them to crashes.\n\n\n\n\n\n\nNoteGo deeper (college)\n\n\n\n\n\n\nRates depend on the denominator (module 4). Per-population rates, like those above, don’t account for how much each group walks. Per-trip or per-mile rates can tell a different story.\nU.S. vehicles have grown larger and taller. An Insurance Institute for Highway Safety study of about 18,000 crashes (Hu, Monfort and Cicchino, 2024) found that vehicles with tall, blunt front ends were linked with about 44% higher pedestrian fatality risk than vehicles with low, sloped fronts.\nLook up the NHTSA fact sheet yourself and find the table by age and sex. Which group has the highest rate?"
+  },
+  {
+    "objectID": "modules/02-burden.html#why-this-matters-for-your-work",
+    "href": "modules/02-burden.html#why-this-matters-for-your-work",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\nMost deaths happen mid-block, at night, on urban arterials. When you label sidewalks, crossings, medians and signals, you’re measuring exactly the features that may make those places safer."
+  },
+  {
+    "objectID": "modules/02-burden.html#check-yourself",
+    "href": "modules/02-burden.html#check-yourself",
+    "title": "2 · Who gets hurt walking, and why",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 1 · Public health · Next: 3 · Crash data"
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html",
+    "href": "modules/04-epi-concepts.html",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "",
+    "text": "~40 min · reading + worked examples + quiz"
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#what-youll-learn",
+    "href": "modules/04-epi-concepts.html#what-youll-learn",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nWhy counts can mislead, and why we use rates\nWhat exposure means, and why it’s the biggest trap in pedestrian safety research\nWhat confounding is, with a worked example\nTwo more traps: the ecological fallacy and regression to the mean\n\nAll the examples use Riverton, a made-up town. The numbers are invented to make the ideas clear."
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#counts-vs.-rates",
+    "href": "modules/04-epi-concepts.html#counts-vs.-rates",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "1. Counts vs. rates",
+    "text": "1. Counts vs. rates\nRiverton has two neighborhoods:\n\n\n\n\nPedestrian crashes per year\nPeople crossing streets per day\n\n\n\n\nNorthside\n40\n20,000\n\n\nSouthside\n10\n2,000\n\n\n\nWhich neighborhood is more dangerous to walk in?\nNorthside has four times as many crashes. But it also has ten times as many people walking. Divide crashes by walkers:\n\nNorthside: 40 ÷ 20,000 = 2 crashes per 1,000 daily walkers\nSouthside: 10 ÷ 2,000 = 5 crashes per 1,000 daily walkers\n\nFor each person walking, Southside is 2.5 times more dangerous.\nA count tells you where crashes pile up. A rate tells you how risky it is for each person. The number you divide by is called the denominator. Choosing it is one of the most important decisions in epidemiology."
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#exposure-the-central-trap",
+    "href": "modules/04-epi-concepts.html#exposure-the-central-trap",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "2. Exposure: the central trap",
+    "text": "2. Exposure: the central trap\nExposure is how much people are “at risk” of the outcome. For pedestrian crashes, that means how many people walk, how far, and how many cars pass them.\nBusy places have more crashes partly because they are busy. More people walking near more cars means more chances for a crash, even if the street is no more dangerous per person.\nThis matters because cities put safety features where people and traffic are. Crosswalks, walk signals and curb ramps go on busy streets. So if you just count crashes, safety features can look dangerous."
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#confounding-a-worked-example",
+    "href": "modules/04-epi-concepts.html#confounding-a-worked-example",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "3. Confounding: a worked example",
+    "text": "3. Confounding: a worked example\nRiverton has 1,000 intersections. Some have marked crosswalks; some don’t. Here are crashes per intersection per year:\nIgnoring foot traffic:\n\n\n\n\nIntersections\nCrashes per intersection\n\n\n\n\nCrosswalk\n500\n1.7\n\n\nNo crosswalk\n500\n0.8\n\n\n\nCrosswalks look terrible: more than twice as many crashes! Should Riverton remove them?\nNow split by how busy the intersection is:\n\n\n\n\n\n\n\n\n\nCrosswalk\nNo crosswalk\n\n\n\n\nQuiet intersections\n100 intersections, 0.5 crashes each\n400 intersections, 0.5 crashes each\n\n\nBusy intersections\n400 intersections, 2.0 crashes each\n100 intersections, 2.0 crashes each\n\n\n\nWithin quiet intersections, crosswalks make no difference. The same is true within busy ones. The first table looked bad only because most crosswalks are at busy intersections, and busy intersections have more crashes for every kind of street.\nFoot and car traffic here is a confounder. It’s linked both to the thing we’re studying (crosswalks) and to the outcome (crashes), so it creates a false association.\n\n\n\n\n\n\nImportantThe rule we follow\n\n\n\nAny study linking street features to crashes must account for exposure (how many people walk and how much traffic there is). Otherwise the results can point in the wrong direction.\n\n\n\n\n\n\n\n\nNoteGo deeper (college)\n\n\n\n\n\n\nCheck the arithmetic: crosswalk average = (100 × 0.5 + 400 × 2.0) / 500 = 1.7. The crude ratio is 1.7 / 0.8 ≈ 2.1, and the ratio within each group is 1.0.\nIn real studies, exposure is rarely measured well. Pedestrian counts exist for only a few locations, so researchers model them. That leaves residual confounding: some bias stays even after adjustment.\nResearchers draw directed acyclic graphs (DAGs) to decide which variables to adjust for. Here: traffic → crosswalk, traffic → crashes, and crosswalk → crashes (the effect we want). Adjusting for traffic blocks the “back door” path.\nAdjusting for the wrong thing can cause bias too. For example, don’t adjust for something that the street feature itself changes."
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#the-ecological-fallacy",
+    "href": "modules/04-epi-concepts.html#the-ecological-fallacy",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "4. The ecological fallacy",
+    "text": "4. The ecological fallacy\nSuppose Riverton’s zones with more bus stops have more pedestrian crashes. Does that mean people who use buses are at higher risk?\nNot necessarily. The data describe areas, not people. Maybe the crashes in bus-heavy zones happen to people who never ride buses. Jumping from an area-level pattern to a claim about individuals is called the ecological fallacy.\nArea-level (“ecological”) studies are useful: cities make decisions about areas. Just describe the findings as being about places, not persons."
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#regression-to-the-mean",
+    "href": "modules/04-epi-concepts.html#regression-to-the-mean",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "5. Regression to the mean",
+    "text": "5. Regression to the mean\nRiverton picks the 10 intersections with the most crashes last year and paints new crosswalks there. Next year, crashes at those 10 drop by 30%. Did the paint work?\nMaybe. But crash counts bounce around from year to year by chance. An intersection that had an unusually bad year is likely to have a more ordinary year next, even with no change at all. This is regression to the mean, and it makes treatments placed at “the worst spots” look better than they are.\nResearchers handle this with comparison sites and with statistical methods that pull extreme counts toward what’s typical for similar streets. One such method is called empirical Bayes."
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#why-this-matters-for-your-work",
+    "href": "modules/04-epi-concepts.html#why-this-matters-for-your-work",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\n\nIf you’re labeling images, you’ll often see that busy streets have more of everything: more crosswalks, more signals, more signs. That’s expected, and it’s exactly why the analysis has to adjust for exposure. Label what you see, and leave the interpretation to the analysis.\nIf you’re reading papers, ask of each one: Did they account for exposure? Are they talking about places or people? Did they choose sites because they were extreme?"
+  },
+  {
+    "objectID": "modules/04-epi-concepts.html#check-yourself",
+    "href": "modules/04-epi-concepts.html#check-yourself",
+    "title": "4 · Thinking like an epidemiologist",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 3 · Where crash data come from · Next: 5 · Streets, design and safety"
+  },
+  {
+    "objectID": "modules/06-measurement.html",
+    "href": "modules/06-measurement.html",
+    "title": "6 · Measuring streets from images",
+    "section": "",
+    "text": "~35 min · reading + quiz"
+  },
+  {
+    "objectID": "modules/06-measurement.html#what-youll-learn",
+    "href": "modules/06-measurement.html#what-youll-learn",
+    "title": "6 · Measuring streets from images",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nThe difference between validity and reliability\nWhy we have two or more people label the same images\nWhy the rules say “label only what you see”\nWhy we keep labelers blind to each other’s work, and freeze labels before comparing\nHow mistakes in labels can (or can’t) bias a study"
+  },
+  {
+    "objectID": "modules/06-measurement.html#ways-to-measure-a-street",
+    "href": "modules/06-measurement.html#ways-to-measure-a-street",
+    "title": "6 · Measuring streets from images",
+    "section": "1. Ways to measure a street",
+    "text": "1. Ways to measure a street\n\n\n\n\n\n\n\n\n\nMethod\nHow\nGood\nNot so good\n\n\n\n\nField audit\nA trained person walks the street with a checklist\nSees everything up close\nSlow, costly, hard to cover a whole city\n\n\nVirtual audit\nA person looks at street-level images on a computer\nFaster, no travel\nImages may be old; some things are hidden\n\n\nComputer vision\nA model finds features in images automatically\nCan cover a whole city\nMakes its own kinds of mistakes, and must be checked against people\n\n\n\nOur project uses virtual audits by people to teach and check computer models. Many checklists in this field, including ours, descend from the same audit tool (CANVAS), so they aren’t fully independent of each other."
+  },
+  {
+    "objectID": "modules/06-measurement.html#validity-and-reliability",
+    "href": "modules/06-measurement.html#validity-and-reliability",
+    "title": "6 · Measuring streets from images",
+    "section": "2. Validity and reliability",
+    "text": "2. Validity and reliability\nThink of a dartboard:\n\nValid means hitting the bullseye: measuring what you mean to measure.\nReliable means hitting the same spot every time: consistent, even if it’s off-center.\n\nA measurement can be reliable but not valid (always off in the same way), but it can’t be valid without being reliable. If two people label the same image differently, at least one is wrong, and we can’t tell which.\nThat’s why consistency comes first. A clear, shared rule applied the same way by everyone beats each person’s private idea of what’s “right.”"
+  },
+  {
+    "objectID": "modules/06-measurement.html#why-two-people-label-the-same-images",
+    "href": "modules/06-measurement.html#why-two-people-label-the-same-images",
+    "title": "6 · Measuring streets from images",
+    "section": "3. Why two people label the same images",
+    "text": "3. Why two people label the same images\nWe have two (sometimes three) people independently label some of the same images. Then we measure how often they agree. This is called inter-rater reliability.\nBut agreement can happen by luck. If 90% of images have no bike lane, two people who both always click “no bike lane” agree 90% of the time without even looking. So researchers use statistics like Cohen’s kappa (κ), which measures agreement beyond what chance would give:\n\nκ = 0: no better than chance\nκ = 1: perfect agreement\nRoughly 0.6 or above is often called “substantial”\n\nFor boxes drawn around objects, we also check whether two boxes overlap enough to count as the same object. The usual measure is called IoU (intersection over union).\nHuman–human agreement also gives us a benchmark for the computer. If two trained people agree only so often, we can’t expect a model to do better than that."
+  },
+  {
+    "objectID": "modules/06-measurement.html#label-only-what-you-see",
+    "href": "modules/06-measurement.html#label-only-what-you-see",
+    "title": "6 · Measuring streets from images",
+    "section": "4. “Label only what you see”",
+    "text": "4. “Label only what you see”\nYou’ll see this rule a lot. It means:\n\nLabel what’s visible in this image, not what “a street like this usually has.”\nIf you can’t tell what something is, don’t label it, or flag it as unsure if the rules allow.\nDon’t use outside knowledge, like “I know there’s a crosswalk at that corner.”\n\nWhy so strict? If labelers fill in what they expect, the labels start to reflect their assumptions, and different people have different assumptions. Then the labels measure the labelers, not the street."
+  },
+  {
+    "objectID": "modules/06-measurement.html#blinding-and-freezing",
+    "href": "modules/06-measurement.html#blinding-and-freezing",
+    "title": "6 · Measuring streets from images",
+    "section": "5. Blinding and freezing",
+    "text": "5. Blinding and freezing\n\nBlind: labelers don’t see each other’s labels, and don’t discuss specific images until the comparison is done. If you talk it over first, your agreement no longer tells us how consistent the rules are. It only shows that you talked.\nFreeze: when everyone finishes, the labels are locked (saved with a digital fingerprint) before anyone compares them. Then nobody can, even by accident, “fix” labels after seeing the results.\nWritten rules first: the rules and the analysis plan are written down and signed before the data are examined. If the plan changes, the change is written down too, with the reason.\n\nNone of this is about distrust. It’s how science protects itself from its own wishful thinking. The same habits are used in clinical trials."
+  },
+  {
+    "objectID": "modules/06-measurement.html#when-do-labeling-mistakes-matter",
+    "href": "modules/06-measurement.html#when-do-labeling-mistakes-matter",
+    "title": "6 · Measuring streets from images",
+    "section": "6. When do labeling mistakes matter?",
+    "text": "6. When do labeling mistakes matter?\nEveryone makes mistakes. What matters is the pattern:\n\nRandom mistakes, made about as often everywhere, usually make real patterns look weaker than they are. That’s annoying, but it’s a known problem.\nMistakes that differ by place are more dangerous. Suppose labelers miss crosswalks more often on dark, low-quality images, and those come mostly from poorer neighborhoods. Then the data can create a pattern that isn’t real.\n\nThat’s one reason we sample images from many kinds of neighborhoods. It’s also why the rules ask you to flag images that won’t load or that you can’t read, instead of guessing.\n\n\n\n\n\n\nNoteGo deeper (college)\n\n\n\n\n\n\nRandom error in an exposure is called non-differential misclassification. With two categories it usually biases associations toward the null. Error that differs by outcome or by group is differential, and it can bias in either direction.\nKappa depends on how common the feature is (the prevalence paradox). Rare features can have high raw agreement but low κ. Report both.\nReliability sets an upper limit on validity. The correlation between a measure and anything else is capped by how reliable the measure is.\nSearch for “pre-registration” and “researcher degrees of freedom” to see why signed plans matter."
+  },
+  {
+    "objectID": "modules/06-measurement.html#why-this-matters-for-your-work",
+    "href": "modules/06-measurement.html#why-this-matters-for-your-work",
+    "title": "6 · Measuring streets from images",
+    "section": "Why this matters for your work",
+    "text": "Why this matters for your work\n\nConsistency beats cleverness. Follow the written definitions exactly, even when you’d draw the line elsewhere.\nAsk, don’t guess. Note the image id and ask your supervisor. The answer goes to every labeler, so the rules stay shared.\nDon’t compare notes on specific images with other labelers until your supervisor says the comparison is done.\nTake your time, and stop when you’re tired. Tired labeling is inconsistent labeling. Submit or close the page when you take a break."
+  },
+  {
+    "objectID": "modules/06-measurement.html#check-yourself",
+    "href": "modules/06-measurement.html#check-yourself",
+    "title": "6 · Measuring streets from images",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 5 · Streets, design and safety · Next: 7 · Research ethics and data rules"
+  },
+  {
+    "objectID": "modules/08-policy.html",
+    "href": "modules/08-policy.html",
+    "title": "8 · From research to safer streets",
+    "section": "",
+    "text": "~20 min · reading + reflection + quiz"
+  },
+  {
+    "objectID": "modules/08-policy.html#what-youll-learn",
+    "href": "modules/08-policy.html#what-youll-learn",
+    "title": "8 · From research to safer streets",
+    "section": "What you’ll learn",
+    "text": "What you’ll learn\n\nWho uses pedestrian safety research, and how\nHow to read a safety map or dashboard carefully\nWhy the words we use matter\nCareers in injury prevention and transportation safety"
+  },
+  {
+    "objectID": "modules/08-policy.html#who-uses-this-research",
+    "href": "modules/08-policy.html#who-uses-this-research",
+    "title": "8 · From research to safer streets",
+    "section": "1. Who uses this research",
+    "text": "1. Who uses this research\n\n\n\n\n\n\n\nWho\nWhat they do with it\n\n\n\n\nCity transportation departments\nDecide which streets to redesign first, and which features to use\n\n\nVision Zero programs\nMap the “high-injury network,” the small share of streets with most serious crashes, and track progress\n\n\nState departments of transportation\nFund safety projects; set design standards for state roads, which are often the most dangerous urban streets\n\n\nHealth departments\nTreat traffic injury as a public health problem; link it to physical activity, aging and equity\n\n\nAdvocates and community groups\nPush for changes on their own streets, using data as evidence\n\n\nResearchers\nTest which features actually work, and for whom\n\n\n\nResearch rarely changes a street by itself. It becomes one piece of evidence that planners, residents and elected officials weigh along with cost, space and what the community wants."
+  },
+  {
+    "objectID": "modules/08-policy.html#reading-maps-and-dashboards-carefully",
+    "href": "modules/08-policy.html#reading-maps-and-dashboards-carefully",
+    "title": "8 · From research to safer streets",
+    "section": "2. Reading maps and dashboards carefully",
+    "text": "2. Reading maps and dashboards carefully\nMaps of crashes are powerful, and easy to misread. Use what you learned in module 4:\n\nCounts or rates? A map of crash counts mostly shows where people and cars are.\nExposure: busy downtown streets will always look “red” on a count map.\nPlaces, not people: an area-level map describes places, not individuals (the ecological fallacy).\nTime period: a few years of data can be noisy. Was the period chosen because it was unusual?\nWhat’s not built yet: a research dashboard may show early results. Read its notes about what’s demonstrated and what’s still a prototype."
+  },
+  {
+    "objectID": "modules/08-policy.html#words-matter",
+    "href": "modules/08-policy.html#words-matter",
+    "title": "8 · From research to safer streets",
+    "section": "3. Words matter",
+    "text": "3. Words matter\nThe words we use shape who gets blamed, and what gets fixed.\n\n\n\n\n\n\n\n\nInstead of\nTry\nWhy\n\n\n\n\n“Accident”\n“Crash”\nCrashes are predictable and preventable (module 1)\n\n\n“Pedestrian was hit by a car”\n“A driver struck a person walking”\nNames who was involved, not just the object\n\n\n“Jaywalker”\n“Person crossing mid-block”\nMost deaths happen mid-block, often where no safe crossing is nearby (module 2)\n\n\n“Pedestrian error”\nDescribe the street: “no crossing for half a mile”\nPoints to what can be changed\n\n\n\nAccurate language also means not overstating results. Say “linked with” rather than “causes” unless the study design supports a causal claim."
+  },
+  {
+    "objectID": "modules/08-policy.html#careers",
+    "href": "modules/08-policy.html#careers",
+    "title": "8 · From research to safer streets",
+    "section": "4. Careers",
+    "text": "4. Careers\nPeople who work on this problem include:\n\nEpidemiologists and biostatisticians at universities, health departments and the CDC’s injury prevention programs\nTransportation engineers and planners at city and state departments of transportation\nData scientists building tools like the ones in this project\nPolicy analysts and advocates at nonprofits and government agencies\nEmergency medicine and trauma professionals who treat injuries and study prevention\n\nUseful college majors include public health, epidemiology, statistics, data science, civil engineering, urban planning, geography and computer science. Many of these fields welcome people from the others."
+  },
+  {
+    "objectID": "modules/08-policy.html#reflection",
+    "href": "modules/08-policy.html#reflection",
+    "title": "8 · From research to safer streets",
+    "section": "5. Reflection",
+    "text": "5. Reflection\nBefore you finish, write down (just for yourself, or to share with your supervisor):\n\nOne idea from this orientation that changed how you see streets.\nOne question you still have."
+  },
+  {
+    "objectID": "modules/08-policy.html#check-yourself",
+    "href": "modules/08-policy.html#check-yourself",
+    "title": "8 · From research to safer streets",
+    "section": "Check yourself",
+    "text": "Check yourself\n\n\n\n\nPrevious: 7 · Ethics · Next: Completion checklist"
+  }
+]

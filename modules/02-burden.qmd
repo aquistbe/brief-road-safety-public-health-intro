@@ -1,0 +1,110 @@
+---
+title: "2 · Who gets hurt walking, and why"
+---
+
+::: {.topic-badges}
+~30 min · reading + quiz
+:::
+
+## What you'll learn
+
+- How many people are killed and hurt while walking, in the U.S. and worldwide
+- Where and when it happens
+- Why older adults are a focus of our project
+- Why risk isn't shared equally
+
+## 1. The numbers
+
+**United States, 2023** (NHTSA, *Traffic Safety Facts: Pedestrians, 2023 Data*):
+
+- **7,314** people were killed while walking. That's about **one every 72 minutes**.
+- About **68,000** more were injured.
+- People walking were **18%** of everyone killed in traffic, up from **15%** in 2014.
+- Pedestrian deaths rose from **4,910 in 2014** to a peak of **7,593 in 2022**, even though cars got safer for the people inside them.
+
+**Worldwide** (WHO, *Global Status Report on Road Safety 2023*):
+
+- About **1.19 million** people die in road crashes each year.
+- About **23%** of them, roughly **274,000** people, were walking.
+- Between 2010 and 2021, total road deaths fell slightly, but pedestrian deaths **rose** by about 3%.
+
+## 2. Where and when
+
+From the same 2023 U.S. data:
+
+| Fact | Share of pedestrian deaths |
+|---|---|
+| In **urban** areas | 84% |
+| **Not at an intersection** (mid-block, along roads) | 74% |
+| In the **dark** | 77% |
+| **Hit-and-run** | 24% |
+| **Male** | 70% |
+
+Two patterns stand out. Most deaths happen **away from intersections**, often where there's no safe place to cross nearby. And most happen **after dark**, when drivers see less and often drive faster.
+
+## 3. Older adults
+
+Our project is funded by the National Institute on Aging, so older adults (we use **60 and over**, following the World Health Organization) are a focus.
+
+- In 2023, people 60 and over were about **24%** of the U.S. population but about **30%** of pedestrian deaths.
+- Their death rate was **2.7 per 100,000 people**, compared with **2.0** for people under 60.
+
+Why?
+
+- **Frailty:** the same impact is more likely to kill an older person.
+- **Walking speed:** many crossing signals are timed for faster walkers.
+- **Vision and hearing:** these can make it harder to judge gaps in traffic, especially at night.
+- **Aging in place:** many older adults want to keep living independently, and walking is how many of them get groceries, see friends and stay active. Unsafe streets can mean staying home, which harms health in other ways.
+
+::: {.callout-note}
+## Saying it accurately
+Older adults are **over-represented** among pedestrian deaths. But in 2023 the highest rates by age group were among adults in their 40s to early 60s. Don't say older adults have "the highest rate of any age group." It isn't true, and getting details right is part of being trusted.
+:::
+
+## 4. Risk isn't shared equally
+
+A 2025 review of U.S. research (Dumbaugh and Stiles) found that, per person:
+
+- **Lower-income areas** have about **3 times** as many pedestrian deaths as wealthier areas.
+- Compared with White non-Hispanic people, **Hispanic** people are about **1.6 times**, **Black** people about **1.7 times**, and **American Indian and Alaska Native** people about **4 times** as likely to be killed while walking.
+
+The same review found little support for the usual explanations, such as "they just walk more" or drinking. The biggest difference was **why people walk**:
+
+- Wealthier households walk mostly for **leisure**. If a street feels unsafe, they can walk somewhere else, or drive.
+- Lower-income households walk mostly **because they have to**: to work, school, shops and the bus. They **can't avoid** dangerous streets.
+- **Road design and investment** make it worse. Wide, fast roads with few safe crossings often run through lower-income neighborhoods.
+
+This is a **health equity** issue: avoidable, unfair differences in health between groups.
+
+## 5. Beyond the U.S.
+
+In many cities in Latin America, Africa and Asia, people walking make up a larger share of road deaths than in the U.S. Part of our team's earlier work was in **Bogotá, Colombia**. There, researchers measured street features from images across the whole city and linked them to crashes.
+
+::: {.callout-note collapse="true"}
+## Go deeper (college)
+- Rates depend on the denominator (module 4). Per-population rates, like those above, don't account for how much each group walks. Per-trip or per-mile rates can tell a different story.
+- U.S. vehicles have grown larger and taller. An Insurance Institute for Highway Safety study of about 18,000 crashes (Hu, Monfort and Cicchino, 2024) found that vehicles with **tall, blunt** front ends were linked with about **44% higher** pedestrian fatality risk than vehicles with low, sloped fronts.
+- Look up the NHTSA fact sheet yourself and find the table by age and sex. Which group has the highest rate?
+:::
+
+## Why this matters for your work
+
+Most deaths happen **mid-block, at night, on urban arterials**. When you label sidewalks, crossings, medians and signals, you're measuring exactly the features that may make those places safer.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "About how many people were killed while walking in the U.S. in 2023?", "options": ["About 7,300", "About 700", "About 73,000", "About 730,000"], "answer": 0, "explain": "NHTSA reports 7,314, about one every 72 minutes."},
+{"q": "Where do most U.S. pedestrian deaths happen?", "options": ["Away from intersections, in urban areas, after dark", "At intersections in daylight", "On rural roads at noon", "In parking lots"], "answer": 0, "explain": "In 2023: 74% not at intersections, 84% urban, 77% in the dark."},
+{"q": "Which statement about older adults is accurate?", "options": ["They're over-represented among pedestrian deaths", "They have the highest death rate of any age group", "They're rarely killed while walking", "Their risk is the same as everyone's"], "answer": 0, "explain": "People 60+ were about 24% of the population but about 30% of pedestrian deaths in 2023."},
+{"q": "Higher pedestrian death rates in lower-income neighborhoods are mostly explained by…", "options": ["Road design, investment and the need to walk", "People walking less carefully", "Bad luck", "Weather"], "answer": 0, "explain": "Lower-income residents more often walk because they must, so they can't avoid unsafe streets."},
+{"q": "Worldwide, about what share of road deaths are people walking?", "options": ["About 23%", "About 2%", "About 50%", "About 90%"], "answer": 0, "explain": "WHO (2023): about 274,000 of 1.19 million road deaths."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [1 · Public health](01-public-health.qmd) · **Next:** [3 · Crash data](03-crash-data.qmd)

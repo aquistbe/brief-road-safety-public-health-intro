@@ -1,0 +1,32 @@
+---
+title: "Glossary"
+---
+
+Plain-language definitions. Use the search box to jump to a term.
+
+| Term | Meaning |
+|---|---|
+| **Confounder** | Something linked to both the feature being studied and the outcome, which can create a false association. Example: foot traffic, which is linked to both crosswalks and crashes. |
+| **Count** | The number of events, like crashes, without dividing by anything. |
+| **Denominator** | The number you divide by to turn a count into a rate, such as people, walkers or miles walked. |
+| **Ecological fallacy** | Wrongly concluding something about individuals from data about areas. |
+| **Empirical Bayes (EB)** | A statistical method that pulls very high or low crash counts toward what's typical for similar streets, to reduce regression to the mean. |
+| **Epidemiology** | The study of how health problems are distributed in populations, and what causes them. |
+| **Exposure** | How much people are at risk. For pedestrians: how many walk, how far, and how much traffic they meet. |
+| **FARS** | Fatality Analysis Reporting System: the U.S. national database of fatal crashes. |
+| **HAWK / PHB** | Pedestrian hybrid beacon: an overhead signal that stays dark until a pedestrian pushes a button. |
+| **HIN** | High-injury network: the small share of a city's streets where most serious crashes happen. |
+| **Inter-rater reliability** | How well two or more labelers agree when they label the same things independently. |
+| **IoU** | Intersection over union: how much two drawn boxes overlap, from 0 (none) to 1 (identical). |
+| **IRB** | Institutional Review Board: the committee that reviews research involving people to protect them. |
+| **Kappa (κ)** | A measure of agreement between raters that removes the agreement expected by chance. |
+| **KABCO** | The police scale of injury severity: K = killed, A = serious, B = minor, C = possible, O = none. |
+| **KSI** | Killed or seriously injured (K + A on the KABCO scale). |
+| **Rate** | A count divided by a denominator, such as crashes per 1,000 walkers. |
+| **Regression to the mean** | The tendency of unusually high or low values to be closer to average next time, by chance alone. |
+| **Reliability** | Consistency: getting the same answer each time. |
+| **RRFB** | Rectangular rapid-flashing beacon: yellow flashing lights on a pedestrian crossing sign. |
+| **Safe System** | An approach to road safety that assumes people will make mistakes and designs roads so that mistakes aren't fatal. |
+| **Validity** | Accuracy: measuring what you mean to measure. |
+| **Vision Zero** | A goal and strategy of zero traffic deaths and serious injuries. |
+| **ZAT** | A transport analysis zone in Bogotá (*zona de análisis de transporte*), used for area-level analysis. |

@@ -1,0 +1,91 @@
+---
+title: "3 · Where crash data come from"
+---
+
+::: {.topic-badges}
+~25 min · reading + quiz
+:::
+
+## What you'll learn
+
+- The main sources of crash and injury data
+- How injury severity is recorded
+- What these data sources miss
+- Why studying one street is harder than it looks
+
+## 1. Police crash reports
+
+Most crash data start with a **police report**. An officer at the scene fills in a form: date, time, location, the people and vehicles involved, road and weather conditions, and how badly people seem to be hurt. States collect these reports into databases.
+
+Police reports are the most complete source on **where** crashes happen, which makes them central to street-level research. But they're filled in quickly, at the scene, by people who aren't doctors.
+
+## 2. National databases
+
+| Source | What it covers | Run by |
+|---|---|---|
+| **FARS** (Fatality Analysis Reporting System) | Every crash on a public road in which someone died within 30 days. National data back to 1975. | NHTSA |
+| **CRSS** (Crash Report Sampling System) | A national sample of police reports of all severities, used to estimate totals | NHTSA |
+| **NEISS** (National Electronic Injury Surveillance System) | A sample of about 100 hospital emergency departments, used to estimate injuries nationally | U.S. Consumer Product Safety Commission |
+| **Hospital and trauma registries** | Detailed medical information on people treated | States and hospitals |
+
+## 3. How severity is recorded: KABCO
+
+Police usually record injuries on the **KABCO** scale:
+
+| Code | Meaning |
+|---|---|
+| **K** | Killed |
+| **A** | Suspected serious injury |
+| **B** | Suspected minor injury |
+| **C** | Possible injury |
+| **O** | No apparent injury |
+
+Researchers often combine K and A into **KSI**: **killed or seriously injured**.
+
+## 4. What the data miss
+
+- **Underreporting.** Many crashes involving people walking or cycling, especially minor ones, never reach a police report. The person may go home, or straight to a hospital.
+- **Severity guesses.** An officer's "A" or "B" at the scene can differ from what doctors later find.
+- **Location errors.** The location may be recorded at the nearest intersection, or not exactly.
+- **Missing exposure.** Crash data say nothing about how many people walked safely past the same spot (module 4).
+
+Linking police reports to hospital records helps fill these gaps, but it's hard to do.
+
+## 5. Why one street is hard to study
+
+Fatal crashes are, thankfully, **rare on any single street**. A block might have zero deaths for ten years, then one. Was the street dangerous, or unlucky? You can't tell from one block.
+
+That's why researchers:
+
+- use **KSI**, or all injury crashes, not just deaths, to get more events;
+- study **many streets at once**, and compare streets with and without a feature;
+- use statistical methods that account for chance (module 4, regression to the mean).
+
+::: {.callout-note collapse="true"}
+## Go deeper (college)
+- FARS counts deaths within 30 days of the crash; other systems define deaths differently.
+- CRSS and NEISS are **samples**, so their national totals are estimates with uncertainty. FARS is a census.
+- Crash counts per street segment are usually modeled with **negative binomial** regression. Counts vary more than a simple Poisson model expects.
+:::
+
+## Why this matters for your work
+
+Crash data tell us **where** people were hurt. Your labels tell us **what the street looked like**. The study needs both, linked carefully.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "What does FARS contain?", "options": ["Every fatal crash on U.S. public roads", "A sample of minor crashes", "Hospital records only", "Only pedestrian crashes"], "answer": 0, "explain": "FARS is a census of fatal crashes, back to 1975."},
+{"q": "What does 'KSI' mean?", "options": ["Killed or seriously injured", "Known safety issue", "Key street intersection", "Kilometers since impact"], "answer": 0, "explain": "K + A on the KABCO scale."},
+{"q": "Which crashes are most likely to be missing from police data?", "options": ["Minor crashes involving people walking or cycling", "Fatal crashes", "Crashes on highways", "Crashes in daylight"], "answer": 0, "explain": "Minor pedestrian and bicycle crashes are often never reported to police."},
+{"q": "A block had one fatal crash in ten years. What can you conclude?", "options": ["Very little; one event can't tell dangerous from unlucky", "It's the most dangerous block in the city", "It's perfectly safe", "The data are wrong"], "answer": 0, "explain": "Rare events need many streets, or more crash types, to study."},
+{"q": "Why do crash data alone not tell you how risky a street is?", "options": ["They don't say how many people passed safely (exposure)", "They're always wrong", "Police don't record locations", "Crashes are random"], "answer": 0, "explain": "Risk needs a denominator (module 4)."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [2 · Who gets hurt](02-burden.qmd) · **Next:** [4 · Thinking like an epidemiologist](04-epi-concepts.qmd)

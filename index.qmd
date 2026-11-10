@@ -1,0 +1,40 @@
+---
+title: "Welcome, student volunteers"
+toc: false
+---
+
+*An introduction to public health, injury epidemiology and pedestrian safety research, for high school and college students joining our team.*
+
+You may be joining us to label street images, check data, read papers, or help in another way. Whatever the task, it helps to know **why** the work matters and **how** researchers think about it. This orientation covers that.
+
+You don't need any background in public health or statistics. If you're in college and want more detail, look for the **Go deeper** boxes.
+
+## How to use this site
+
+- Go through the modules **in order**. Each takes 20 to 40 minutes.
+- Each module ends with a **short quiz**. It isn't graded and nobody sees your score. It's there so you can check yourself.
+- Use the **search box** (top right) to find any term. The [Glossary](glossary.qmd) explains the jargon.
+- When you finish, go through the [Completion checklist](checklist.qmd) with your supervisor.
+
+## Modules
+
+| # | Module | Time | Status |
+|---|---|---|---|
+| 0 | [Welcome: how the project fits together](modules/00-welcome.qmd) | 20 min | Ready |
+| 1 | [Public health in one hour](modules/01-public-health.qmd) | 40 min | Ready |
+| 2 | [Who gets hurt walking, and why](modules/02-burden.qmd) | 30 min | Ready |
+| 3 | [Where crash data come from](modules/03-crash-data.qmd) | 25 min | Ready |
+| 4 | [Thinking like an epidemiologist](modules/04-epi-concepts.qmd) | 40 min | Ready |
+| 5 | [Streets, design and safety](modules/05-built-environment.qmd) | 30 min | Ready |
+| 6 | [Measuring streets from images](modules/06-measurement.qmd) | 35 min | Ready |
+| 7 | [Research ethics and data rules](modules/07-ethics.qmd) | 25 min | Ready |
+| 8 | [From research to safer streets](modules/08-policy.qmd) | 20 min | Ready |
+
+::: {.callout-tip}
+## Labeling images?
+Do modules **0, 4, 6 and 7** before you start labeling. They explain the rules you'll follow, the data rules, and the reasons for them.
+:::
+
+## Questions
+
+Ask your supervisor. There are no silly questions. In research, the person who asks "why do we do it this way?" often catches a mistake.

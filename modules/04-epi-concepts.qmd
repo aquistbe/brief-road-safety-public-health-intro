@@ -1,0 +1,120 @@
+---
+title: "4 · Thinking like an epidemiologist"
+---
+
+::: {.topic-badges}
+~40 min · reading + worked examples + quiz
+:::
+
+## What you'll learn
+
+- Why **counts** can mislead, and why we use **rates**
+- What **exposure** means, and why it's the biggest trap in pedestrian safety research
+- What **confounding** is, with a worked example
+- Two more traps: the **ecological fallacy** and **regression to the mean**
+
+All the examples use **Riverton**, a made-up town. The numbers are invented to make the ideas clear.
+
+## 1. Counts vs. rates
+
+Riverton has two neighborhoods:
+
+| | Pedestrian crashes per year | People crossing streets per day |
+|---|---|---|
+| Northside | 40 | 20,000 |
+| Southside | 10 | 2,000 |
+
+Which neighborhood is more dangerous to walk in?
+
+Northside has **four times as many crashes**. But it also has **ten times as many people walking**. Divide crashes by walkers:
+
+- Northside: 40 ÷ 20,000 = **2 crashes per 1,000 daily walkers**
+- Southside: 10 ÷ 2,000 = **5 crashes per 1,000 daily walkers**
+
+**For each person walking, Southside is 2.5 times more dangerous.**
+
+A **count** tells you where crashes pile up. A **rate** tells you how risky it is for each person. The number you divide by is called the **denominator**. Choosing it is one of the most important decisions in epidemiology.
+
+## 2. Exposure: the central trap
+
+**Exposure** is how much people are "at risk" of the outcome. For pedestrian crashes, that means how many people walk, how far, and how many cars pass them.
+
+Busy places have more crashes partly *because they are busy*. More people walking near more cars means more chances for a crash, even if the street is no more dangerous per person.
+
+This matters because **cities put safety features where people and traffic are.** Crosswalks, walk signals and curb ramps go on busy streets. So if you just count crashes, safety features can look *dangerous*.
+
+## 3. Confounding: a worked example
+
+Riverton has 1,000 intersections. Some have marked crosswalks; some don't. Here are crashes per intersection per year:
+
+**Ignoring foot traffic:**
+
+| | Intersections | Crashes per intersection |
+|---|---|---|
+| Crosswalk | 500 | 1.7 |
+| No crosswalk | 500 | 0.8 |
+
+Crosswalks look terrible: **more than twice** as many crashes! Should Riverton remove them?
+
+**Now split by how busy the intersection is:**
+
+| | Crosswalk | No crosswalk |
+|---|---|---|
+| **Quiet** intersections | 100 intersections, **0.5** crashes each | 400 intersections, **0.5** crashes each |
+| **Busy** intersections | 400 intersections, **2.0** crashes each | 100 intersections, **2.0** crashes each |
+
+Within quiet intersections, crosswalks make **no difference**. The same is true within busy ones. The first table looked bad only because **most crosswalks are at busy intersections**, and busy intersections have more crashes for every kind of street.
+
+Foot and car traffic here is a **confounder**. It's linked both to the thing we're studying (crosswalks) and to the outcome (crashes), so it creates a false association.
+
+::: {.callout-important}
+## The rule we follow
+Any study linking street features to crashes **must account for exposure** (how many people walk and how much traffic there is). Otherwise the results can point in the wrong direction.
+:::
+
+::: {.callout-note collapse="true"}
+## Go deeper (college)
+- Check the arithmetic: crosswalk average = (100 × 0.5 + 400 × 2.0) / 500 = 1.7. The crude ratio is 1.7 / 0.8 ≈ 2.1, and the ratio within each group is 1.0.
+- In real studies, exposure is rarely measured well. Pedestrian counts exist for only a few locations, so researchers model them. That leaves **residual confounding**: some bias stays even after adjustment.
+- Researchers draw **directed acyclic graphs (DAGs)** to decide which variables to adjust for. Here: traffic → crosswalk, traffic → crashes, and crosswalk → crashes (the effect we want). Adjusting for traffic blocks the "back door" path.
+- Adjusting for the wrong thing can cause bias too. For example, don't adjust for something that the street feature itself changes.
+:::
+
+## 4. The ecological fallacy
+
+Suppose Riverton's zones with more bus stops have more pedestrian crashes. Does that mean **people who use buses** are at higher risk?
+
+**Not necessarily.** The data describe *areas*, not *people*. Maybe the crashes in bus-heavy zones happen to people who never ride buses. Jumping from an area-level pattern to a claim about individuals is called the **ecological fallacy**.
+
+Area-level ("ecological") studies are useful: cities make decisions about areas. Just describe the findings as being about **places**, not **persons**.
+
+## 5. Regression to the mean
+
+Riverton picks the 10 intersections with the most crashes last year and paints new crosswalks there. Next year, crashes at those 10 drop by 30%. Did the paint work?
+
+Maybe. But crash counts bounce around from year to year by chance. An intersection that had an unusually **bad** year is likely to have a more **ordinary** year next, even with no change at all. This is **regression to the mean**, and it makes treatments placed at "the worst spots" look better than they are.
+
+Researchers handle this with comparison sites and with statistical methods that pull extreme counts toward what's typical for similar streets. One such method is called **empirical Bayes**.
+
+## Why this matters for your work
+
+- If you're **labeling images**, you'll often see that busy streets have more of everything: more crosswalks, more signals, more signs. That's expected, and it's exactly why the analysis has to adjust for exposure. Label what you see, and leave the interpretation to the analysis.
+- If you're **reading papers**, ask of each one: *Did they account for exposure? Are they talking about places or people? Did they choose sites because they were extreme?*
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "Zone A has 50 crashes and 50,000 daily walkers. Zone B has 20 crashes and 5,000 daily walkers. Which is riskier per walker?", "options": ["Zone B (4 per 1,000 vs. 1 per 1,000)", "Zone A, because it has more crashes", "They're the same", "You can't tell"], "answer": 0, "explain": "50 ÷ 50,000 = 1 per 1,000; 20 ÷ 5,000 = 4 per 1,000."},
+{"q": "Intersections with crosswalks have more crashes than those without. The most likely explanation is…", "options": ["Crosswalks are placed where more people walk and drive (exposure)", "Crosswalks cause crashes", "Drivers ignore paint", "The data are wrong"], "answer": 0, "explain": "This is confounding by exposure. Compare similar intersections before drawing conclusions."},
+{"q": "A confounder is something that…", "options": ["Is linked to both the feature being studied and the outcome, creating a false association", "Only affects the outcome", "Is a measurement mistake", "Is the main result"], "answer": 0, "explain": "Here, foot and car traffic is tied to both crosswalks and crashes."},
+{"q": "Zones with more liquor stores have more pedestrian injuries. Can we say people who visit liquor stores are at higher risk?", "options": ["No. That's the ecological fallacy: the data are about areas, not people", "Yes, definitely", "Only on weekends", "Yes, if the sample is large"], "answer": 0, "explain": "Area-level patterns don't tell us about individuals."},
+{"q": "A city fixes its 10 worst intersections and crashes drop the next year. What else could explain the drop?", "options": ["Regression to the mean: unusually bad years tend to be followed by ordinary ones", "Nothing; the fix worked", "Fewer people drove", "Crashes always drop"], "answer": 0, "explain": "Sites picked because they were extreme tend to look better next time, even with no change."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [3 · Where crash data come from](03-crash-data.qmd) · **Next:** [5 · Streets, design and safety](05-built-environment.qmd)

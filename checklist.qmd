@@ -1,0 +1,32 @@
+---
+title: "Completion checklist"
+toc: false
+---
+
+Go through this with your supervisor when you've finished the modules.
+
+## Modules
+
+- [ ] 0 · Welcome
+- [ ] 1 · Public health in one hour
+- [ ] 2 · Who gets hurt walking, and why
+- [ ] 3 · Where crash data come from
+- [ ] 4 · Thinking like an epidemiologist
+- [ ] 5 · Streets, design and safety
+- [ ] 6 · Measuring streets from images
+- [ ] 7 · Research ethics and data rules
+- [ ] 8 · From research to safer streets
+
+## Before you start project work
+
+- [ ] Any required training is done (your supervisor will tell you which, if any)
+- [ ] You've read the instructions for your specific task
+- [ ] You know who to ask, and how
+- [ ] You can explain in one sentence what the project does and what isn't built yet
+- [ ] You can explain why exposure matters (module 4)
+- [ ] You can explain why labelers work blind and follow "label only what you see" (module 6)
+- [ ] You know the data rules: no screenshots, no saving or sharing images, no trying to locate images (module 7)
+
+## Supervisor sign-off
+
+Date: ________  Supervisor: ________________

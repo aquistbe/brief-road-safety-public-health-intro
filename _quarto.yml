@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "modules/*.qmd"
+  resources:
+    - robots.txt
+    - .nojekyll
+
+website:
+  title: "Brief Road Safety & Public Health Intro"
+  description: "A self-paced introduction to public health, injury epidemiology and pedestrian safety research for high school and college volunteers"
+  search: true
+  navbar:
+    background: "#003366"
+    foreground: white
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Modules"
+        menu:
+          - href: modules/00-welcome.qmd
+            text: "0 · Welcome: how the project fits together"
+          - href: modules/01-public-health.qmd
+            text: "1 · Public health in one hour"
+          - href: modules/02-burden.qmd
+            text: "2 · Who gets hurt walking, and why"
+          - href: modules/03-crash-data.qmd
+            text: "3 · Where crash data come from"
+          - href: modules/04-epi-concepts.qmd
+            text: "4 · Thinking like an epidemiologist"
+          - href: modules/05-built-environment.qmd
+            text: "5 · Streets, design and safety"
+          - href: modules/06-measurement.qmd
+            text: "6 · Measuring streets from images"
+          - href: modules/07-ethics.qmd
+            text: "7 · Research ethics and data rules"
+          - href: modules/08-policy.qmd
+            text: "8 · From research to safer streets"
+      - href: glossary.qmd
+        text: Glossary
+      - href: readings.qmd
+        text: Readings
+      - href: checklist.qmd
+        text: "Completion checklist"
+  page-footer:
+    left: "Student Volunteer Orientation | Dornsife School of Public Health | Drexel University"
+    right: "Developed with the assistance of Claude (Anthropic); reviewed and owned by the author. Built with Quarto."
+    background: "#003366"
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex, nofollow">
+    include-after-body: _quiz.html

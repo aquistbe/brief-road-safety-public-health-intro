@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>3 · Where crash data come from – Brief Road Safety &amp; Public Health Intro</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e5a00fd6c0fce5251246b1fbc19e77b5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Brief Road Safety &amp; Public Health Intro</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-modules" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Modules</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-modules">    
+        <li>
+    <a class="dropdown-item" href="../modules/00-welcome.html">
+ <span class="dropdown-text">0 · Welcome: how the project fits together</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/01-public-health.html">
+ <span class="dropdown-text">1 · Public health in one hour</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/02-burden.html">
+ <span class="dropdown-text">2 · Who gets hurt walking, and why</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/03-crash-data.html">
+ <span class="dropdown-text">3 · Where crash data come from</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/04-epi-concepts.html">
+ <span class="dropdown-text">4 · Thinking like an epidemiologist</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/05-built-environment.html">
+ <span class="dropdown-text">5 · Streets, design and safety</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/06-measurement.html">
+ <span class="dropdown-text">6 · Measuring streets from images</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/07-ethics.html">
+ <span class="dropdown-text">7 · Research ethics and data rules</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../modules/08-policy.html">
+ <span class="dropdown-text">8 · From research to safer streets</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../glossary.html"> 
+<span class="menu-text">Glossary</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../readings.html"> 
+<span class="menu-text">Readings</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../checklist.html"> 
+<span class="menu-text">Completion checklist</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-youll-learn" id="toc-what-youll-learn" class="nav-link active" data-scroll-target="#what-youll-learn">What you’ll learn</a></li>
+  <li><a href="#police-crash-reports" id="toc-police-crash-reports" class="nav-link" data-scroll-target="#police-crash-reports">1. Police crash reports</a></li>
+  <li><a href="#national-databases" id="toc-national-databases" class="nav-link" data-scroll-target="#national-databases">2. National databases</a></li>
+  <li><a href="#how-severity-is-recorded-kabco" id="toc-how-severity-is-recorded-kabco" class="nav-link" data-scroll-target="#how-severity-is-recorded-kabco">3. How severity is recorded: KABCO</a></li>
+  <li><a href="#what-the-data-miss" id="toc-what-the-data-miss" class="nav-link" data-scroll-target="#what-the-data-miss">4. What the data miss</a></li>
+  <li><a href="#why-one-street-is-hard-to-study" id="toc-why-one-street-is-hard-to-study" class="nav-link" data-scroll-target="#why-one-street-is-hard-to-study">5. Why one street is hard to study</a></li>
+  <li><a href="#why-this-matters-for-your-work" id="toc-why-this-matters-for-your-work" class="nav-link" data-scroll-target="#why-this-matters-for-your-work">Why this matters for your work</a></li>
+  <li><a href="#check-yourself" id="toc-check-yourself" class="nav-link" data-scroll-target="#check-yourself">Check yourself</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">3 · Where crash data come from</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="topic-badges">
+<p>~25 min · reading + quiz</p>
+</div>
+<section id="what-youll-learn" class="level2">
+<h2 class="anchored" data-anchor-id="what-youll-learn">What you’ll learn</h2>
+<ul>
+<li>The main sources of crash and injury data</li>
+<li>How injury severity is recorded</li>
+<li>What these data sources miss</li>
+<li>Why studying one street is harder than it looks</li>
+</ul>
+</section>
+<section id="police-crash-reports" class="level2">
+<h2 class="anchored" data-anchor-id="police-crash-reports">1. Police crash reports</h2>
+<p>Most crash data start with a <strong>police report</strong>. An officer at the scene fills in a form: date, time, location, the people and vehicles involved, road and weather conditions, and how badly people seem to be hurt. States collect these reports into databases.</p>
+<p>Police reports are the most complete source on <strong>where</strong> crashes happen, which makes them central to street-level research. But they’re filled in quickly, at the scene, by people who aren’t doctors.</p>
+</section>
+<section id="national-databases" class="level2">
+<h2 class="anchored" data-anchor-id="national-databases">2. National databases</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Source</th>
+<th>What it covers</th>
+<th>Run by</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>FARS</strong> (Fatality Analysis Reporting System)</td>
+<td>Every crash on a public road in which someone died within 30 days. National data back to 1975.</td>
+<td>NHTSA</td>
+</tr>
+<tr class="even">
+<td><strong>CRSS</strong> (Crash Report Sampling System)</td>
+<td>A national sample of police reports of all severities, used to estimate totals</td>
+<td>NHTSA</td>
+</tr>
+<tr class="odd">
+<td><strong>NEISS</strong> (National Electronic Injury Surveillance System)</td>
+<td>A sample of about 100 hospital emergency departments, used to estimate injuries nationally</td>
+<td>U.S. Consumer Product Safety Commission</td>
+</tr>
+<tr class="even">
+<td><strong>Hospital and trauma registries</strong></td>
+<td>Detailed medical information on people treated</td>
+<td>States and hospitals</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="how-severity-is-recorded-kabco" class="level2">
+<h2 class="anchored" data-anchor-id="how-severity-is-recorded-kabco">3. How severity is recorded: KABCO</h2>
+<p>Police usually record injuries on the <strong>KABCO</strong> scale:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>K</strong></td>
+<td>Killed</td>
+</tr>
+<tr class="even">
+<td><strong>A</strong></td>
+<td>Suspected serious injury</td>
+</tr>
+<tr class="odd">
+<td><strong>B</strong></td>
+<td>Suspected minor injury</td>
+</tr>
+<tr class="even">
+<td><strong>C</strong></td>
+<td>Possible injury</td>
+</tr>
+<tr class="odd">
+<td><strong>O</strong></td>
+<td>No apparent injury</td>
+</tr>
+</tbody>
+</table>
+<p>Researchers often combine K and A into <strong>KSI</strong>: <strong>killed or seriously injured</strong>.</p>
+</section>
+<section id="what-the-data-miss" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-data-miss">4. What the data miss</h2>
+<ul>
+<li><strong>Underreporting.</strong> Many crashes involving people walking or cycling, especially minor ones, never reach a police report. The person may go home, or straight to a hospital.</li>
+<li><strong>Severity guesses.</strong> An officer’s “A” or “B” at the scene can differ from what doctors later find.</li>
+<li><strong>Location errors.</strong> The location may be recorded at the nearest intersection, or not exactly.</li>
+<li><strong>Missing exposure.</strong> Crash data say nothing about how many people walked safely past the same spot (module 4).</li>
+</ul>
+<p>Linking police reports to hospital records helps fill these gaps, but it’s hard to do.</p>
+</section>
+<section id="why-one-street-is-hard-to-study" class="level2">
+<h2 class="anchored" data-anchor-id="why-one-street-is-hard-to-study">5. Why one street is hard to study</h2>
+<p>Fatal crashes are, thankfully, <strong>rare on any single street</strong>. A block might have zero deaths for ten years, then one. Was the street dangerous, or unlucky? You can’t tell from one block.</p>
+<p>That’s why researchers:</p>
+<ul>
+<li>use <strong>KSI</strong>, or all injury crashes, not just deaths, to get more events;</li>
+<li>study <strong>many streets at once</strong>, and compare streets with and without a feature;</li>
+<li>use statistical methods that account for chance (module 4, regression to the mean).</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Go deeper (college)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>FARS counts deaths within 30 days of the crash; other systems define deaths differently.</li>
+<li>CRSS and NEISS are <strong>samples</strong>, so their national totals are estimates with uncertainty. FARS is a census.</li>
+<li>Crash counts per street segment are usually modeled with <strong>negative binomial</strong> regression. Counts vary more than a simple Poisson model expects.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="why-this-matters-for-your-work" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters-for-your-work">Why this matters for your work</h2>
+<p>Crash data tell us <strong>where</strong> people were hurt. Your labels tell us <strong>what the street looked like</strong>. The study needs both, linked carefully.</p>
+</section>
+<section id="check-yourself" class="level2">
+<h2 class="anchored" data-anchor-id="check-yourself">Check yourself</h2>
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "What does FARS contain?", "options": ["Every fatal crash on U.S. public roads", "A sample of minor crashes", "Hospital records only", "Only pedestrian crashes"], "answer": 0, "explain": "FARS is a census of fatal crashes, back to 1975."},
+{"q": "What does 'KSI' mean?", "options": ["Killed or seriously injured", "Known safety issue", "Key street intersection", "Kilometers since impact"], "answer": 0, "explain": "K + A on the KABCO scale."},
+{"q": "Which crashes are most likely to be missing from police data?", "options": ["Minor crashes involving people walking or cycling", "Fatal crashes", "Crashes on highways", "Crashes in daylight"], "answer": 0, "explain": "Minor pedestrian and bicycle crashes are often never reported to police."},
+{"q": "A block had one fatal crash in ten years. What can you conclude?", "options": ["Very little; one event can't tell dangerous from unlucky", "It's the most dangerous block in the city", "It's perfectly safe", "The data are wrong"], "answer": 0, "explain": "Rare events need many streets, or more crash types, to study."},
+{"q": "Why do crash data alone not tell you how risky a street is?", "options": ["They don't say how many people passed safely (exposure)", "They're always wrong", "Police don't record locations", "Crashes are random"], "answer": 0, "explain": "Risk needs a denominator (module 4)."}
+]}
+</script>
+</div>
+<hr>
+<p><strong>Previous:</strong> <a href="../modules/02-burden.html">2 · Who gets hurt</a> · <strong>Next:</strong> <a href="../modules/04-epi-concepts.html">4 · Thinking like an epidemiologist</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<!-- Page styles + end-of-module quiz engine (from the DSPH AI workshop site; analytics removed) (included after body) -->
+<style>
+/* Difficulty badges */
+.level-badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;
+  text-transform:uppercase;padding:.15em .6em;border-radius:1em;vertical-align:middle}
+.level-novice{background:#e3f3e8;color:#1d6b3b;border:1px solid #9fd3b2}
+.level-moderate{background:#fdf0d6;color:#8a5a00;border:1px solid #f0cf86}
+.level-advanced{background:#e7ecf5;color:#07294d;border:1px solid #9fb3cc}
+.topic-badges{margin:.2rem 0 .4rem;color:#5a6571;font-size:.95rem}
+.topic-meta{color:#5a6571;font-size:.95rem;margin-bottom:1rem}
+.track-back{display:inline-block;margin:.2rem 0 1rem;font-size:.95rem}
+
+/* Track / topic tables */
+.topic-list td:first-child{white-space:nowrap}
+
+/* Collapsible activities (native <details>, no JS needed) */
+details.activity{border:1px solid #d2dae8;border-left:4px solid #006699;border-radius:6px;
+  margin:.8rem 0;background:#f7f9fb;padding:0 1.15rem}
+details.activity > summary{cursor:pointer;font-weight:700;color:#07294d;padding:.7rem 0;
+  list-style:none;font-size:1.02rem;outline:none}
+details.activity > summary::-webkit-details-marker{display:none}
+details.activity > summary::before{content:"\25B8\00a0";color:#006699;font-weight:700}
+details.activity[open] > summary::before{content:"\25BE\00a0"}
+details.activity[open]{padding-bottom:.7rem}
+details.activity[open] > summary{border-bottom:1px solid #e3e9f2;margin-bottom:.5rem}
+details.activity > summary:hover{color:#006699}
+details.activity > *:not(summary):first-of-type{margin-top:.4rem}
+
+/* Readiness quiz */
+.readiness-quiz{border:1px solid #d2dae8;border-radius:8px;padding:1.1rem 1.25rem;margin:1rem 0;
+  background:#f7f9fb}
+.rq-q{margin:0 0 1rem;padding:.6rem .8rem;border-radius:6px;border:1px solid transparent}
+.rq-qtext{font-weight:600;margin:0 0 .5rem}
+.rq-opt{display:block;margin:.25rem 0;cursor:pointer;line-height:1.4}
+.rq-opt input{margin-right:.5rem}
+.rq-fb{margin-top:.45rem;font-size:.9rem;display:none}
+.rq-fb.rq-fb-ok,.rq-fb.rq-fb-no,.rq-fb.rq-fb-none{display:block}
+.rq-fb-ok{color:#1d6b3b}
+.rq-fb-no{color:#a12a2a}
+.rq-fb-none{color:#8a5a00}
+.rq-correct{background:#f0f9f3;border-color:#bfe3cd}
+.rq-wrong{background:#fcf1f1;border-color:#eccccc}
+.rq-btn{background:#07294d;color:#fff;border:none;border-radius:6px;padding:.5rem 1.1rem;
+  font-weight:600;cursor:pointer}
+.rq-btn:hover{background:#0a3a6b}
+.rq-score{margin-top:.8rem;font-weight:600;color:#07294d}
+</style>
+<script>
+(function(){
+  function init(){
+    var boxes=document.querySelectorAll('.readiness-quiz');
+    boxes.forEach(function(box,bi){
+      var dataEl=box.querySelector('script.quiz-data');
+      if(!dataEl) return;
+      var data; try{data=JSON.parse(dataEl.textContent);}catch(e){return;}
+      var qs=(data&&data.questions)||[];
+      if(!qs.length) return;
+      var wrap=document.createElement('div');
+      qs.forEach(function(q,qi){
+        var qd=document.createElement('div'); qd.className='rq-q';
+        var p=document.createElement('p'); p.className='rq-qtext'; p.textContent=(qi+1)+'. '+q.q; qd.appendChild(p);
+        (q.options||[]).forEach(function(opt,oi){
+          var lab=document.createElement('label'); lab.className='rq-opt';
+          var inp=document.createElement('input'); inp.type='radio'; inp.name='rq_'+bi+'_'+qi; inp.value=oi;
+          lab.appendChild(inp); lab.appendChild(document.createTextNode(' '+opt)); qd.appendChild(lab);
+        });
+        var fb=document.createElement('div'); fb.className='rq-fb'; qd.appendChild(fb);
+        wrap.appendChild(qd);
+      });
+      var btn=document.createElement('button'); btn.type='button'; btn.className='rq-btn'; btn.textContent='Check my answers';
+      var score=document.createElement('div'); score.className='rq-score';
+      btn.addEventListener('click',function(){
+        var correct=0;
+        qs.forEach(function(q,qi){
+          var qd=wrap.children[qi]; var sel=qd.querySelector('input:checked'); var fb=qd.querySelector('.rq-fb');
+          qd.classList.remove('rq-correct','rq-wrong');
+          if(!sel){ fb.textContent='Select an answer.'; fb.className='rq-fb rq-fb-none'; return; }
+          if(parseInt(sel.value,10)===q.answer){ correct++; qd.classList.add('rq-correct'); fb.textContent='Correct. '+(q.explain||''); fb.className='rq-fb rq-fb-ok'; }
+          else { qd.classList.add('rq-wrong'); fb.textContent='Not quite. '+(q.explain||''); fb.className='rq-fb rq-fb-no'; }
+        });
+        var pct=Math.round(correct/qs.length*100);
+        var verdict=pct>=80?"You've got it. On to the next module.":(pct>=50?"Close. Reread the parts you missed, then try again.":"Go back through the module, then try again. That's normal the first time.");
+        score.textContent='You scored '+correct+'/'+qs.length+' ('+pct+'%). '+verdict;
+      });
+      box.innerHTML=''; box.appendChild(wrap); box.appendChild(btn); box.appendChild(score);
+    });
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init);}else{init();}
+})();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Student Volunteer Orientation | Dornsife School of Public Health | Drexel University</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Developed with the assistance of Claude (Anthropic); reviewed and owned by the author. Built with Quarto.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

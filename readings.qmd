@@ -1,0 +1,38 @@
+---
+title: "Readings"
+---
+
+## Start here (everyone)
+
+- National Highway Traffic Safety Administration. [*Traffic Safety Facts: Pedestrians, 2023 Data*](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813727) (DOT HS 813 727). June 2025. The source for most U.S. numbers in module 2.
+- World Health Organization. [*Global Status Report on Road Safety 2023*](https://www.who.int/publications/i/item/9789240086517). Start with the [summary](https://www.who.int/publications/i/item/9789240086456).
+- U.S. Department of Transportation. [*National Roadway Safety Strategy*](https://www.transportation.gov/sites/dot.gov/files/2022-01/USDOT_National_Roadway_Safety_Strategy_0.pdf). January 2022. The Safe System approach (module 1).
+- Tefft BC. [*Impact Speed and a Pedestrian's Risk of Severe Injury or Death*](https://aaafoundation.org/impact-speed-pedestrians-risk-severe-injury-death/). AAA Foundation for Traffic Safety; 2011. The speed table in module 5.
+- National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. [*The Belmont Report*](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html). 1979 (module 7).
+
+## Go deeper (college)
+
+**Public health and injury**
+
+- Haddon W Jr. Advances in the epidemiology of injuries as a basis for public policy. *Public Health Reports.* 1980;95(5):411–421. [PubMed 7422807](https://pubmed.ncbi.nlm.nih.gov/7422807/)
+- Frieden TR. A framework for public health action: the health impact pyramid. *American Journal of Public Health.* 2010;100(4):590–595. [doi:10.2105/AJPH.2009.185652](https://doi.org/10.2105/AJPH.2009.185652)
+
+**Who gets hurt**
+
+- Dumbaugh E, Stiles J. Social vulnerability: a review of the literature on pedestrian crash risk in lower-income and minority communities. *Journal of Transport and Land Use.* 2025;18(1):221–235. [doi:10.5198/jtlu.2025.2547](https://doi.org/10.5198/jtlu.2025.2547) (open access)
+- Hu W, Monfort SS, Cicchino JB. The association between passenger-vehicle front-end profiles and pedestrian injury severity in motor vehicle crashes. *Journal of Safety Research.* 2024;90:115–127. [doi:10.1016/j.jsr.2024.06.007](https://doi.org/10.1016/j.jsr.2024.06.007)
+
+**Streets and safety**
+
+- Tefft BC. Impact speed and a pedestrian's risk of severe injury or death. *Accident Analysis & Prevention.* 2013;50:871–878. [doi:10.1016/j.aap.2012.07.022](https://doi.org/10.1016/j.aap.2012.07.022) (the peer-reviewed version of the AAA report)
+- Ewing R, Dumbaugh E. The built environment and traffic safety: a review of empirical evidence. *Journal of Planning Literature.* 2009;23(4):347–367. [doi:10.1177/0885412209335553](https://doi.org/10.1177/0885412209335553)
+- Zegeer CV, Stewart JR, Huang HH, Lagerwey PA, Feaganes J, Campbell BJ. *Safety Effects of Marked versus Unmarked Crosswalks at Uncontrolled Locations: Final Report and Recommended Guidelines.* FHWA-HRT-04-100. Federal Highway Administration; 2005.
+
+**Methods**
+
+- Robinson WS. Ecological correlations and the behavior of individuals. *American Sociological Review.* 1950;15(3):351–357. [doi:10.2307/2087176](https://doi.org/10.2307/2087176)
+- Hauer E. *Observational Before–After Studies in Road Safety.* Oxford: Pergamon; 1997. ISBN 978-0-08-043053-9. On regression to the mean and empirical Bayes.
+
+## Our team's work
+
+*To be added: published WalkSafe-AI and Bogotá papers, with DOIs.*

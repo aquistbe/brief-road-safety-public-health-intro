@@ -1,0 +1,84 @@
+---
+title: "5 · Streets, design and safety"
+---
+
+::: {.topic-badges}
+~30 min · reading + quiz
+:::
+
+## What you'll learn
+
+- Why speed matters more than almost anything else
+- Common street features that make walking safer
+- How strong the evidence is, and how to judge a study
+- Where our labeling checklist comes from
+
+## 1. Speed and the human body
+
+A study of U.S. crashes (Tefft, AAA Foundation for Traffic Safety, 2011) estimated a pedestrian's **risk of death** by the speed of the car at impact:
+
+| Impact speed | Risk of death |
+|---|---|
+| 23 mph | 10% |
+| 32 mph | 25% |
+| 42 mph | 50% |
+| 50 mph | 75% |
+| 58 mph | 90% |
+
+Going from about 20 to about 40 mph doesn't double the danger; it multiplies it several times. Speed also affects whether a crash happens at all: faster drivers need more distance to stop and see less of what's beside the road.
+
+That's why so many safety designs work by **slowing cars down where people walk**.
+
+## 2. Features that make walking safer
+
+The U.S. Federal Highway Administration (FHWA) keeps a list of **Proven Safety Countermeasures**. Several are for people walking:
+
+| Feature | What it is | How it helps |
+|---|---|---|
+| **High-visibility crosswalk** | Bold bar markings, often with signs and lighting | Drivers see the crossing and the person in it |
+| **Pedestrian refuge island** | A raised island in the middle of the street | People cross one direction of traffic at a time |
+| **Curb extension** (bulb-out) | Sidewalk built out into the parking lane at a corner | Shorter crossing; people can see and be seen |
+| **Leading pedestrian interval** | The walk signal starts a few seconds before cars get green | People are already in the crosswalk before turning cars arrive |
+| **Pedestrian hybrid beacon** (HAWK) | An overhead signal that stops traffic only when a pedestrian pushes the button | A protected crossing on busy roads without a full signal |
+| **RRFB** | Bright flashing yellow lights on a crossing sign | Draws drivers' attention to a person waiting to cross |
+| **Road diet** | Turning, for example, four lanes into two plus a center turn lane | Lower speeds and fewer lanes to cross |
+| **Lighting** | Better street lighting at crossings | Most pedestrian deaths happen after dark (module 2) |
+
+FHWA reports, for example, that refuge islands reduce pedestrian crashes by about **32%**, and pedestrian hybrid beacons by about **55%**.
+
+## 3. How strong is the evidence?
+
+Not all studies are equally convincing. From weakest to strongest, roughly:
+
+1. **Cross-sectional:** compare streets that have a feature with streets that don't, at one point in time. This is the most open to confounding (module 4), because features aren't placed at random.
+2. **Simple before–after:** count crashes before and after a feature is installed. This is open to regression to the mean if the sites were chosen because they were bad.
+3. **Before–after with comparison sites:** compare the change at treated sites with the change at similar untreated sites over the same years.
+4. **Before–after with empirical Bayes:** like 3, plus a statistical correction for regression to the mean. This is the standard in road safety.
+
+A famous example of why this matters: early studies found that **marked crosswalks alone**, with no other features, on wide, busy roads were linked with *more* pedestrian crashes than unmarked crossings. Paint alone may not be enough on fast multi-lane roads. The usual advice is to add other features, such as refuge islands or beacons, there. (Zegeer et al., FHWA, 2005)
+
+## 4. Where our checklist comes from
+
+To measure streets consistently, researchers use **audit tools**: checklists of street features with exact definitions. Our labeling classes descend from an audit tool called **CANVAS**, adapted for images. Because related projects share this ancestry, their checklists aren't fully independent measures. That matters when comparing results across studies.
+
+## Why this matters for your work
+
+Most of the classes you'll label (crosswalks, medians and refuge islands, curb extensions, signals, beacons, lane markings) are on the list above. Your labels let researchers ask whether these features are linked to fewer crashes **across a whole city**, not just at a few sites.
+
+## Check yourself
+
+<div class="readiness-quiz">
+<script type="application/json" class="quiz-data">
+{"questions": [
+{"q": "Roughly how does a pedestrian's risk of death change from 23 mph to 42 mph?", "options": ["From about 10% to about 50%", "It stays about the same", "It doubles from 10% to 20%", "It falls"], "answer": 0, "explain": "Tefft (2011): 10% at 23 mph, 50% at 42 mph."},
+{"q": "How does a pedestrian refuge island help?", "options": ["People cross one direction of traffic at a time", "It makes cars faster", "It replaces sidewalks", "It is purely decorative"], "answer": 0, "explain": "It breaks a long, hard crossing into two shorter ones."},
+{"q": "What is a leading pedestrian interval?", "options": ["The walk signal starts before cars get a green light", "A longer red light for pedestrians", "A painted line before the crosswalk", "A speed bump"], "answer": 0, "explain": "It puts people in the crosswalk before turning cars arrive."},
+{"q": "Which kind of study is most open to confounding?", "options": ["Comparing streets with and without a feature at one point in time", "Before–after with comparison sites", "Before–after with empirical Bayes", "None of them"], "answer": 0, "explain": "Features aren't placed at random, so a cross-sectional comparison mixes the feature with where it was put."},
+{"q": "Why may paint alone not be enough on a wide, fast road?", "options": ["Studies found marked-only crossings there weren't safer, so other features are usually added", "Paint fades", "Drivers can't see paint", "It's illegal"], "answer": 0, "explain": "On fast multi-lane roads, refuge islands or beacons are usually recommended alongside markings."}
+]}
+</script>
+</div>
+
+---
+
+**Previous:** [4 · Thinking like an epidemiologist](04-epi-concepts.qmd) · **Next:** [6 · Measuring streets](06-measurement.qmd)
